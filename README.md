@@ -43,6 +43,11 @@ This project uses a `requirements.yml` (`yml` not `txt`) file to set up the Pyth
 
    Replace `<env_name>` with the environment name specified in `requirements.yml` or the one you provided.
 
+5. Test your environment
+   ```bash
+   python test_env.py # should output "All libraries are installed correctly"
+   ```
+
 ---
 
 ## **How to Use**
