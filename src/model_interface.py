@@ -51,20 +51,28 @@ class AdaptiveModel(L.LightningModule):
         return x_repeated
 
     def forward(self, x):
-        x1 = self.activation(self.bn1(self.adaptive_layer_1(x)))
+        x1 = self.adaptive_layer_1(x)
+        x1 = self.bn1(x1)
+        x1 += self.skip_connection(x)
+        x1 = self.activation(x1)
         if self.input_dim > 2:
             x1 = self.dropout1(x1)
-        # add skip connection
-        x1 += self.skip_connection(x)
 
-        x2 = self.activation(self.bn2(self.adaptive_layer_2(x1)))
+        # Second block
+        x2 = self.adaptive_layer_2(x1)
+        x2 = self.bn2(x2)
+        x2 += self.skip_connection(x1)  # Skip connection added before activation
+        x2 = self.activation(x2)
         x2 = self.dropout2(x2)
-        x2 += self.skip_connection(x1)
 
-        x3 = self.activation(self.bn3(self.adaptive_layer_3(x2)))
+        # Third block
+        x3 = self.adaptive_layer_3(x2)
+        x3 = self.bn3(x3)
+        x3 += self.skip_connection(x2)  # Skip connection added before activation
+        x3 = self.activation(x3)
         x3 = self.dropout3(x3)
-        x3 += self.skip_connection(x2)
 
+        # Output layer
         x4 = self.fc_out(x3)
         x4 = self.output_activation(x4)
         return x4
