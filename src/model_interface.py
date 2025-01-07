@@ -110,7 +110,6 @@ class AdaptiveMultipleModels(L.LightningModule):
         self.compounds_reactions_tensor = torch.tensor(
             self.compounds_reactions_tensor, dtype=torch.float32, device=self.device
         )
-        self.compounds_reactions_tensor = self.compounds_reactions_tensor.unsqueeze(0)
 
     def forward(self, x, reaction_name):
         outputs = self.models[reaction_name](x)
@@ -354,7 +353,7 @@ class AdaptiveMultipleModels(L.LightningModule):
 
         # Expand matrix1 and matrix2 for broadcasting
         expanded_matrix1 = samples_reactions.unsqueeze(1)  # Shape: (n1, 1, c)
-        expanded_matrix2 = self.compounds_reactions_tensor  # Shape: (1, n2, c)
+        expanded_matrix2 = self.compounds_reactions_tensor.unsqueeze(0)  # Shape: (1, n2, c)
 
         # Compute element-wise product between each row of matrix1 and all rows of matrix2
         pairwise_products = expanded_matrix1 * expanded_matrix2  # Shape: (n1, n2, c)
