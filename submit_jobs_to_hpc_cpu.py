@@ -12,7 +12,10 @@ def create_output_dir(output_dir_path, data_name, network_name):
     if not os.path.exists(output_dir_path):
         os.makedirs(output_dir_path)
 
-    data_name = data_name.split(".")[0]
+    if data_name.endswith(".csv"):
+        data_name = data_name.replace(".csv", "")
+    elif data_name.endswith(".csv.gz"):
+        data_name = data_name.replace(".csv.gz", "")
     network_name = network_name.replace("_cmMat.csv", "")
     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
     new_output_dir_path = os.path.join(
