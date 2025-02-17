@@ -14,12 +14,23 @@ class AdaptiveLayer(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(AdaptiveLayer, self).__init__()
         self.linear = nn.Linear(input_dim, output_dim)
-        self.gate = nn.Parameter(torch.randn(1))  # Learnable gate parameter
+        self.gate = nn.Parameter(
+            torch.zeros(output_dim)
+        )  # Learnable gate parameter for each feature
 
     def forward(self, x):
-        gate_activation = torch.sigmoid(self.gate)
-        return gate_activation * self.linear(x)
+        gate_activation = (
+            torch.sigmoid(self.gate) + 1e-6
+        )  # Add small epsilon to avoid zero
+        linear_output = self.linear(x)
+        return gate_activation * linear_output
 
+def replace_nan_predictions(predictions, default_value=0.0):
+    if torch.isnan(predictions).any():
+        # print("NaN detected in predictions. Replacing with default value.")
+        predictions[torch.isnan(predictions)] = default_value
+    return predictions
+    
 
 class AdaptiveModel(L.LightningModule):
     def __init__(self, input_dim, dropout_rate=0.1, output_dim=1):
@@ -75,6 +86,9 @@ class AdaptiveModel(L.LightningModule):
         # Output layer
         x4 = self.fc_out(x3)
         x4 = self.output_activation(x4)
+
+        x4 = replace_nan_predictions(x4)
+        
         return x4
 
 
@@ -114,6 +128,15 @@ class AdaptiveMultipleModels(L.LightningModule):
     def forward(self, x, reaction_name):
         outputs = self.models[reaction_name](x)
         return outputs
+
+    def replace_nan_weights(self, value=1e-6):
+        for reaction, model in self.models.items():
+            if model is None:
+                continue
+            for name, param in model.named_parameters():
+                if torch.isnan(param).any():
+                    # print(f"NaN detected in {name}. Replacing with small values.")
+                    param.data[torch.isnan(param)] = value
 
     def training_step(self, batch, batch_idx):
         optimizers = self.optimizers()
@@ -195,6 +218,8 @@ class AdaptiveMultipleModels(L.LightningModule):
         for optimizer in optimizers:
             optimizer.step()
             optimizer.zero_grad()
+
+        self.replace_nan_weights()
 
         return total_loss
 
@@ -406,11 +431,15 @@ class AdaptiveMultipleModels(L.LightningModule):
         reaction_cor = self.compute_pearson_correlation(
             samples_reactions, samples_reactions_geneMean
         )
+        if reaction_cor < 0:
+            reaction_cor = -reaction_cor
 
         # pearson correlation distance loss by row/sample
         sample_cor = self.compute_pearson_correlation(
             samples_reactions.T, samples_reactions_geneMean.T
         )
+        if sample_cor < 0:
+            sample_cor = -sample_cor
 
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
@@ -446,11 +475,15 @@ class AdaptiveMultipleModels(L.LightningModule):
         reaction_cor = self.compute_pearson_correlation(
             samples_reactions, samples_reactions_geneMean
         )
+        if reaction_cor < 0:
+            reaction_cor = -reaction_cor
 
         # pearson correlation loss by row
         sample_cor = self.compute_pearson_correlation(
             samples_reactions.T, samples_reactions_geneMean.T
         )
+        if sample_cor < 0:
+            sample_cor = -sample_cor
 
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
