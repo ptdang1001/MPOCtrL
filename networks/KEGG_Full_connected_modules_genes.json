@@ -1,0 +1,4640 @@
+{
+    "M_614": [
+        "TPH2",
+        "TPH1"
+    ],
+    "M_636": [
+        "PNP"
+    ],
+    "M_145": [
+        "ACAA2",
+        "ACAA1",
+        "HADHB"
+    ],
+    "M_522": [
+        "UGCG"
+    ],
+    "M_1081": [
+        "COLGALT2",
+        "COLGALT1",
+        "PLOD3"
+    ],
+    "M_1054": [
+        "SC5D"
+    ],
+    "M_150": [
+        "GNE"
+    ],
+    "M_657": [
+        "OGDH",
+        "DHTKD1",
+        "OGDHL"
+    ],
+    "M_64": [
+        "NADSYN1"
+    ],
+    "M_83": [
+        "ALDH4A1"
+    ],
+    "M_1099": [
+        "MINPP1"
+    ],
+    "M_1123": [
+        "L2HGDH"
+    ],
+    "M_872": [
+        "MAOA",
+        "MAOB",
+        "AOC2",
+        "AOC3"
+    ],
+    "M_114": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3",
+        "CANT1",
+        "ENTPD6",
+        "ENTPD5",
+        "ENTPD4"
+    ],
+    "M_278": [
+        "ETNPPL"
+    ],
+    "M_441": [
+        "GMPS"
+    ],
+    "M_825": [
+        "CDA"
+    ],
+    "M_1117": [
+        "GSTO2",
+        "GSTA5",
+        "GSTA1",
+        "GSTA2",
+        "GSTA3",
+        "GSTA4",
+        "GSTM1",
+        "GSTM2",
+        "GSTM3",
+        "GSTM4",
+        "GSTM5",
+        "GSTP1",
+        "GSTT2",
+        "GSTK1",
+        "MGST1",
+        "MGST2",
+        "MGST3",
+        "GSTT2B",
+        "GSTO1"
+    ],
+    "M_670": [
+        "EHHADH",
+        "HSD17B10",
+        "HADH",
+        "HSD17B4"
+    ],
+    "M_640": [
+        "CDA"
+    ],
+    "M_350": [
+        "DPYD"
+    ],
+    "M_1177": [
+        "MECR",
+        "PECR"
+    ],
+    "M_847": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_165": [
+        "PNPT1"
+    ],
+    "M_520": [
+        "CERK"
+    ],
+    "M_612": [
+        "NPL"
+    ],
+    "M_381": [
+        "ALDOA",
+        "ALDOB",
+        "ALDOC"
+    ],
+    "M_1048": [
+        "PYCR2",
+        "PYCR1",
+        "PYCR3"
+    ],
+    "M_754": [
+        "FPGS"
+    ],
+    "M_531": [
+        "RGN"
+    ],
+    "M_1199": [
+        "MECR",
+        "PECR"
+    ],
+    "M_454": [
+        "NNMT"
+    ],
+    "M_559": [
+        "XYLB"
+    ],
+    "M_1012": [
+        "AOC2",
+        "AOC3"
+    ],
+    "M_1023": [
+        "GSTZ1"
+    ],
+    "M_1124": [
+        "TPO"
+    ],
+    "M_676": [
+        "CAD"
+    ],
+    "M_762": [
+        "MOGAT3",
+        "DGAT2",
+        "DGAT1"
+    ],
+    "M_127": [
+        "GOT1",
+        "GOT2"
+    ],
+    "M_749": [
+        "CYP11B1",
+        "CYP11B2"
+    ],
+    "M_821": [
+        "AKR1C4",
+        "AKR1C4",
+        "AKR1C1",
+        "AKR1C2",
+        "AKR1C3"
+    ],
+    "M_26": [
+        "BST1",
+        "CD38"
+    ],
+    "M_7": [
+        "GAA",
+        "GANC",
+        "MGAM"
+    ],
+    "M_327": [
+        "ACAT1",
+        "ACAT2",
+        "ACAA2",
+        "ACAA1",
+        "HADHB"
+    ],
+    "M_316": [
+        "GOT1",
+        "GOT2"
+    ],
+    "M_225": [
+        "NTPCR"
+    ],
+    "M_371": [
+        "AKR1A1",
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_167": [
+        "POLR3A",
+        "POLR1A",
+        "POLR2A",
+        "POLR2B",
+        "POLRMT",
+        "POLR3B",
+        "POLR1B"
+    ],
+    "M_171": [
+        "GRHPR"
+    ],
+    "M_210": [
+        "CTPS1",
+        "CTPS2"
+    ],
+    "M_630": [
+        "FBP1",
+        "FBP2"
+    ],
+    "M_1121": [
+        "ITPA"
+    ],
+    "M_941": [
+        "AKR1D1"
+    ],
+    "M_203": [
+        "NOS1",
+        "NOS2",
+        "NOS3"
+    ],
+    "M_694": [
+        "GNPNAT1"
+    ],
+    "M_672": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_1161": [
+        "HMOX1",
+        "HMOX2"
+    ],
+    "M_375": [
+        "RPIA"
+    ],
+    "M_845": [
+        "COMT"
+    ],
+    "M_939": [
+        "CYP21A2"
+    ],
+    "M_600": [
+        "G6PC",
+        "G6PC2",
+        "G6PC3"
+    ],
+    "M_1024": [
+        "FTCD"
+    ],
+    "M_120": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_447": [
+        "PYCR2",
+        "PYCR1",
+        "PYCR3"
+    ],
+    "M_469": [
+        "PLA2G4B",
+        "PLA2G16",
+        "PLA2G4E",
+        "PLB1",
+        "PLA2G4F",
+        "PLA2G2D",
+        "PLA2G4D",
+        "PLA2G2E",
+        "PLA2G2C",
+        "PLA2G3",
+        "PLA2G1B",
+        "PLA2G2A",
+        "PLA2G4A",
+        "PLA2G5",
+        "PLA2G2F",
+        "PLA2G12A",
+        "PLA2G6",
+        "PLA2G10",
+        "PLA2G12B",
+        "PLA2G4C",
+        "JMJD7-PLA2G4B"
+    ],
+    "M_336": [
+        "SHMT1",
+        "SHMT2"
+    ],
+    "M_461": [
+        "COX10",
+        "COQ2"
+    ],
+    "M_455": [
+        "NAMPT"
+    ],
+    "M_1034": [
+        "PFKL",
+        "PFKM",
+        "PFKP"
+    ],
+    "M_28": [
+        "NADK"
+    ],
+    "M_41": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_860": [
+        "DLST"
+    ],
+    "M_36": [
+        "AK6",
+        "AK7",
+        "AK8",
+        "AK1",
+        "AK2",
+        "AK4",
+        "AK5",
+        "TAF9"
+    ],
+    "M_950": [
+        "SRM",
+        "SMS"
+    ],
+    "M_242": [
+        "ITPA"
+    ],
+    "M_334": [
+        "FPGS"
+    ],
+    "M_1134": [
+        "GALC"
+    ],
+    "M_738": [
+        "COQ3"
+    ],
+    "M_421": [
+        "ACOX1",
+        "ACOX3",
+        "ACADS",
+        "ACADM",
+        "ACAD8"
+    ],
+    "M_1239": [
+        "OLAH"
+    ],
+    "M_1181": [
+        "CYP17A1"
+    ],
+    "M_361": [
+        "TKFC"
+    ],
+    "M_786": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_301": [
+        "GPD2"
+    ],
+    "M_265": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_443": [
+        "NUDT2"
+    ],
+    "M_1244": [
+        "AOC2",
+        "AOC3"
+    ],
+    "M_113": [
+        "ACYP1",
+        "ACYP2"
+    ],
+    "M_776": [
+        "FTCD"
+    ],
+    "M_656": [
+        "AADAT"
+    ],
+    "M_715": [
+        "XDH"
+    ],
+    "M_1174": [
+        "MOGAT1",
+        "MOGAT3",
+        "MOGAT2"
+    ],
+    "M_1194": [
+        "HSD11B2"
+    ],
+    "M_125": [
+        "CS"
+    ],
+    "M_842": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_134": [
+        "AGXT",
+        "AGXT2"
+    ],
+    "M_758": [
+        "MVK"
+    ],
+    "M_177": [
+        "ASPA",
+        "ACY3"
+    ],
+    "M_230": [
+        "ADH1A",
+        "ADH1B",
+        "ADH1C",
+        "ADH4",
+        "ADH5",
+        "ADH6",
+        "ADH7"
+    ],
+    "M_539": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_393": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_814": [
+        "ALLC"
+    ],
+    "M_662": [
+        "KMO"
+    ],
+    "M_513": [
+        "CEL",
+        "LIPA"
+    ],
+    "M_1045": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1",
+        "ALDH9A1"
+    ],
+    "M_1137": [
+        "IDO2",
+        "IDO1"
+    ],
+    "M_970": [
+        "DAO"
+    ],
+    "M_388": [
+        "FAHD1"
+    ],
+    "M_1138": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_11": [
+        "TYR"
+    ],
+    "M_1049": [
+        "PYCR2",
+        "PYCR1",
+        "PYCR3"
+    ],
+    "M_607": [
+        "PGS1"
+    ],
+    "M_1000": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_987": [
+        "PANK1",
+        "PANK4",
+        "PANK3",
+        "PANK2"
+    ],
+    "M_1037": [
+        "PFKL",
+        "PFKM",
+        "PFKP"
+    ],
+    "M_354": [
+        "LDHAL6A",
+        "LDHA",
+        "LDHB",
+        "LDHC",
+        "LDHAL6B"
+    ],
+    "M_333": [
+        "ALDH1L1",
+        "ALDH1L2"
+    ],
+    "M_914": [
+        "LYPLA1",
+        "PNPLA6",
+        "LYPLA2",
+        "CLC",
+        "PLB1",
+        "PLA2G15",
+        "ASPG",
+        "PNPLA7"
+    ],
+    "M_504": [
+        "MTAP"
+    ],
+    "M_185": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_886": [
+        "KYNU"
+    ],
+    "M_1133": [
+        "CYP2R1"
+    ],
+    "M_1035": [
+        "PFKL",
+        "PFKM",
+        "PFKP"
+    ],
+    "M_752": [
+        "DHFR",
+        "DHFR2"
+    ],
+    "M_95": [
+        "NIT2"
+    ],
+    "M_981": [
+        "SPHK2",
+        "SPHK1"
+    ],
+    "M_968": [
+        "MAOA",
+        "MAOB"
+    ],
+    "M_1083": [
+        "INPP1"
+    ],
+    "M_1140": [
+        "GLA"
+    ],
+    "M_592": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_122": [
+        "MDH1",
+        "MDH2"
+    ],
+    "M_647": [
+        "ACO1",
+        "ACO2"
+    ],
+    "M_178": [
+        "GAD1",
+        "GAD2"
+    ],
+    "M_187": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_696": [
+        "GGPS1"
+    ],
+    "M_1217": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1"
+    ],
+    "M_452": [
+        "GGT6",
+        "GGT1",
+        "GGT7",
+        "GGT5"
+    ],
+    "M_940": [
+        "HSD3B1",
+        "HSD3B2"
+    ],
+    "M_1118": [
+        "GBA3"
+    ],
+    "M_46": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_953": [
+        "SQLE"
+    ],
+    "M_926": [
+        "AKR1C3"
+    ],
+    "M_603": [
+        "QDPR"
+    ],
+    "M_1240": [
+        "GAL3ST1"
+    ],
+    "M_1156": [
+        "TARSL2",
+        "TARS",
+        "TARS2"
+    ],
+    "M_183": [
+        "BPNT1",
+        "IMPAD1"
+    ],
+    "M_1147": [
+        "GARS"
+    ],
+    "M_583": [
+        "FASN",
+        "OLAH"
+    ],
+    "M_818": [
+        "GAD1",
+        "GAD2",
+        "CSAD"
+    ],
+    "M_88": [
+        "NADSYN1"
+    ],
+    "M_1079": [
+        "PLOD1",
+        "PLOD2",
+        "PLOD3"
+    ],
+    "M_317": [
+        "LAP3",
+        "ANPEP"
+    ],
+    "M_1253": [
+        "AOX1"
+    ],
+    "M_47": [
+        "AK3"
+    ],
+    "M_532": [
+        "H6PD"
+    ],
+    "M_900": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_707": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_1026": [
+        "LSS"
+    ],
+    "M_704": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_691": [
+        "PISD"
+    ],
+    "M_1088": [
+        "PRUNE1"
+    ],
+    "M_148": [
+        "SUCLG2",
+        "SUCLG1",
+        "SUCLA2"
+    ],
+    "M_468": [
+        "PLA2G16"
+    ],
+    "M_404": [
+        "ATIC"
+    ],
+    "M_355": [
+        "CTH"
+    ],
+    "M_598": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1",
+        "GCK"
+    ],
+    "M_1225": [
+        "GGT6",
+        "GGT1",
+        "GGT7",
+        "GGT5"
+    ],
+    "M_1017": [
+        "UROS"
+    ],
+    "M_859": [
+        "DLST"
+    ],
+    "M_699": [
+        "HMGCR"
+    ],
+    "M_833": [
+        "CYP19A1"
+    ],
+    "M_546": [
+        "GLS2",
+        "GLS"
+    ],
+    "M_107": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1",
+        "GCK"
+    ],
+    "M_978": [
+        "PANK1",
+        "PANK4",
+        "PANK3",
+        "PANK2"
+    ],
+    "M_710": [
+        "DTYMK"
+    ],
+    "M_169": [
+        "POLR3A",
+        "POLR1A",
+        "POLR2A",
+        "POLR2B",
+        "POLRMT",
+        "POLR3B",
+        "POLR1B"
+    ],
+    "M_1200": [
+        "ACOX1",
+        "ACOX3",
+        "ACADM",
+        "ACADL",
+        "ACAD8"
+    ],
+    "M_874": [
+        "GOT1",
+        "GOT2"
+    ],
+    "M_538": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_279": [
+        "ADH1A",
+        "ADH1B",
+        "ADH1C",
+        "ADH4",
+        "ADH5",
+        "ADH6",
+        "ADH7"
+    ],
+    "M_680": [
+        "RRM2B",
+        "RRM1",
+        "RRM2"
+    ],
+    "M_927": [
+        "NUDT2"
+    ],
+    "M_566": [
+        "BPGM"
+    ],
+    "M_467": [
+        "PLA2G4B",
+        "PLA2G16",
+        "PLA2G4E",
+        "PLB1",
+        "PLA2G4F",
+        "PLA2G2D",
+        "PLA2G4D",
+        "PLA2G2E",
+        "PLA2G2C",
+        "PLA2G3",
+        "PLA2G1B",
+        "PLA2G2A",
+        "PLA2G4A",
+        "PLA2G5",
+        "PLA2G2F",
+        "PLA2G12A",
+        "PLA2G6",
+        "PLA2G10",
+        "PLA2G12B",
+        "PLA2G4C",
+        "JMJD7-PLA2G4B"
+    ],
+    "M_84": [
+        "GLUD1",
+        "GLUD2"
+    ],
+    "M_602": [
+        "MGAM",
+        "SI"
+    ],
+    "M_748": [
+        "HSD3B1",
+        "HSD3B2"
+    ],
+    "M_619": [
+        "TALDO1"
+    ],
+    "M_216": [
+        "SRR"
+    ],
+    "M_1097": [
+        "INPP5J",
+        "INPP5A",
+        "INPP5K"
+    ],
+    "M_73": [
+        "ME2",
+        "ME3",
+        "ME1"
+    ],
+    "M_491": [
+        "FAH"
+    ],
+    "M_357": [
+        "ALG5"
+    ],
+    "M_1196": [
+        "CYP21A2"
+    ],
+    "M_27": [
+        "ENPP1",
+        "ENPP3",
+        "NUDT12"
+    ],
+    "M_991": [
+        "ENPP1",
+        "ENPP3"
+    ],
+    "M_378": [
+        "DERA"
+    ],
+    "M_503": [
+        "OTC"
+    ],
+    "M_1175": [
+        "MOGAT1",
+        "MOGAT3",
+        "MOGAT2"
+    ],
+    "M_1055": [
+        "ALDH18A1"
+    ],
+    "M_380": [
+        "ALDOA",
+        "ALDOB",
+        "ALDOC"
+    ],
+    "M_337": [
+        "MTR"
+    ],
+    "M_465": [
+        "PLD4",
+        "PLD3",
+        "PLD1",
+        "PLD2"
+    ],
+    "M_979": [
+        "VNN2",
+        "VNN1"
+    ],
+    "M_1050": [
+        "PRODH",
+        "PRODH2"
+    ],
+    "M_490": [
+        "BDH2",
+        "BDH1"
+    ],
+    "M_1211": [
+        "GATC",
+        "GATB",
+        "QRSL1"
+    ],
+    "M_745": [
+        "SRD5A1",
+        "SRD5A2",
+        "SRD5A3"
+    ],
+    "M_876": [
+        "CRYL1"
+    ],
+    "M_275": [
+        "DDC"
+    ],
+    "M_395": [
+        "GLA"
+    ],
+    "M_313": [
+        "CDO1"
+    ],
+    "M_775": [
+        "ST20-MTHFS",
+        "MTHFS"
+    ],
+    "M_109": [
+        "GBA3"
+    ],
+    "M_270": [
+        "PCK1",
+        "PCK2"
+    ],
+    "M_438": [
+        "MTHFR"
+    ],
+    "M_252": [
+        "LPO",
+        "EPX",
+        "PRDX6"
+    ],
+    "M_967": [
+        "YARS2",
+        "YARS"
+    ],
+    "M_620": [
+        "ALDOA",
+        "ALDOB",
+        "ALDOC"
+    ],
+    "M_812": [
+        "CTH"
+    ],
+    "M_1047": [
+        "CNDP1"
+    ],
+    "M_1146": [
+        "QARS"
+    ],
+    "M_214": [
+        "AGXT"
+    ],
+    "M_834": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_589": [
+        "HAGH",
+        "HAGHL"
+    ],
+    "M_175": [
+        "ASNS"
+    ],
+    "M_805": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_718": [
+        "AGL"
+    ],
+    "M_1005": [
+        "ALDH7A1"
+    ],
+    "M_747": [
+        "CYP21A2"
+    ],
+    "M_226": [
+        "TPK1"
+    ],
+    "M_344": [
+        "UMPS"
+    ],
+    "M_277": [
+        "AKR1A1"
+    ],
+    "M_854": [
+        "GBA3"
+    ],
+    "M_997": [
+        "ALOX5"
+    ],
+    "M_191": [
+        "ASPA",
+        "ACY3"
+    ],
+    "M_240": [
+        "ENO1",
+        "ENO2",
+        "ENO3"
+    ],
+    "M_729": [
+        "PNP"
+    ],
+    "M_642": [
+        "CKB",
+        "CKM",
+        "CKMT1B",
+        "CKMT2",
+        "CKMT1A"
+    ],
+    "M_138": [
+        "MYBBP1A",
+        "POLQ",
+        "POLI",
+        "POLL",
+        "POLM",
+        "POLN",
+        "POLK",
+        "POLE3",
+        "POLA1",
+        "POLB",
+        "POLD1",
+        "POLE",
+        "POLE2",
+        "POLG",
+        "POLH",
+        "POLE4",
+        "REV3L"
+    ],
+    "M_1127": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6"
+    ],
+    "M_248": [
+        "TDO2",
+        "IDO2",
+        "IDO1"
+    ],
+    "M_168": [
+        "POLR3A",
+        "POLR1A",
+        "POLR2A",
+        "POLR2B",
+        "POLRMT",
+        "POLR3B",
+        "POLR1B"
+    ],
+    "M_4": [
+        "PDHA1",
+        "PDHA2",
+        "PDHB"
+    ],
+    "M_322": [
+        "CARNS1"
+    ],
+    "M_57": [
+        "AMD1"
+    ],
+    "M_516": [
+        "GUSB",
+        "KL"
+    ],
+    "M_712": [
+        "ITPA",
+        "DUT"
+    ],
+    "M_1203": [
+        "CYP4F3",
+        "CYP4F2"
+    ],
+    "M_1041": [
+        "CYP11B1",
+        "CYP11B2",
+        "CYP11B2"
+    ],
+    "M_911": [
+        "GGCT"
+    ],
+    "M_853": [
+        "PNP"
+    ],
+    "M_519": [
+        "ACER1",
+        "ACER2",
+        "ASAH1",
+        "ASAH2"
+    ],
+    "M_595": [
+        "EHHADH",
+        "HSD17B10",
+        "HADH",
+        "HSD17B4",
+        "HADHA"
+    ],
+    "M_410": [
+        "PKLR",
+        "PKM"
+    ],
+    "M_303": [
+        "GPAT4",
+        "GPAT2",
+        "GPAM",
+        "GPAT3"
+    ],
+    "M_99": [
+        "PNPO"
+    ],
+    "M_349": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_500": [
+        "GRHPR"
+    ],
+    "M_599": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_1205": [
+        "GSTZ1"
+    ],
+    "M_205": [
+        "AZIN2"
+    ],
+    "M_1148": [
+        "HARS2",
+        "HARS"
+    ],
+    "M_89": [
+        "GPT",
+        "GPT2"
+    ],
+    "M_39": [
+        "LAP3"
+    ],
+    "M_385": [
+        "BTD"
+    ],
+    "M_181": [
+        "B4GALT1",
+        "LALBA",
+        "B4GALT2"
+    ],
+    "M_580": [
+        "BCKDHA",
+        "BCKDHB"
+    ],
+    "M_1187": [
+        "DLD"
+    ],
+    "M_2": [
+        "CAT"
+    ],
+    "M_22": [
+        "ENTPD2",
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3",
+        "NTPCR"
+    ],
+    "M_397": [
+        "GLA"
+    ],
+    "M_163": [
+        "PNPT1"
+    ],
+    "M_1082": [
+        "ALDH6A1"
+    ],
+    "M_151": [
+        "UAP1",
+        "UAP1L1"
+    ],
+    "M_494": [
+        "HPD"
+    ],
+    "M_890": [
+        "ECHS1",
+        "EHHADH",
+        "HADHA",
+        "HACD2",
+        "HACD1"
+    ],
+    "M_568": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_671": [
+        "HMGCS1",
+        "HMGCS2"
+    ],
+    "M_508": [
+        "DHCR7"
+    ],
+    "M_700": [
+        "AUH"
+    ],
+    "M_1040": [
+        "CYP11B1",
+        "CYP11B2",
+        "CYP11B2"
+    ],
+    "M_132": [
+        "AGXT",
+        "AGXT2"
+    ],
+    "M_118": [
+        "GUK1"
+    ],
+    "M_436": [
+        "MTHFD2",
+        "MTHFD2L"
+    ],
+    "M_985": [
+        "ENPP1",
+        "ENPP3",
+        "NUDT12"
+    ],
+    "M_184": [
+        "PAPSS2",
+        "PAPSS1"
+    ],
+    "M_1106": [
+        "ITPK1"
+    ],
+    "M_373": [
+        "RBKS"
+    ],
+    "M_938": [
+        "HSD11B1"
+    ],
+    "M_957": [
+        "GBA3"
+    ],
+    "M_768": [
+        "CYP4A11",
+        "CYP4A22"
+    ],
+    "M_884": [
+        "DBT"
+    ],
+    "M_750": [
+        "AKR1D1"
+    ],
+    "M_1258": [
+        "DBT"
+    ],
+    "M_48": [
+        "CMPK2",
+        "CMPK1"
+    ],
+    "M_161": [
+        "POLR3A",
+        "POLR1A",
+        "POLR2A",
+        "POLR2B",
+        "POLRMT",
+        "POLR3B",
+        "POLR1B"
+    ],
+    "M_250": [
+        "IL4I1"
+    ],
+    "M_1073": [
+        "GLB1"
+    ],
+    "M_1158": [
+        "VARS2",
+        "VARS"
+    ],
+    "M_293": [
+        "GAA",
+        "GANC",
+        "MGAM",
+        "SI"
+    ],
+    "M_415": [
+        "AGMAT"
+    ],
+    "M_521": [
+        "CERS1",
+        "CERS3",
+        "CERS6",
+        "CERS2",
+        "CERS4",
+        "CERS5"
+    ],
+    "M_1182": [
+        "CYP21A2"
+    ],
+    "M_1254": [
+        "ALOX12B",
+        "ALOX15B"
+    ],
+    "M_543": [
+        "TK1",
+        "TK2"
+    ],
+    "M_1195": [
+        "HSD11B1"
+    ],
+    "M_734": [
+        "SDHA",
+        "SDHB"
+    ],
+    "M_296": [
+        "ALAS1",
+        "ALAS2"
+    ],
+    "M_544": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_359": [
+        "DPM1"
+    ],
+    "M_587": [
+        "SI"
+    ],
+    "M_564": [
+        "FDPS",
+        "GGPS1"
+    ],
+    "M_1256": [
+        "IVD",
+        "ACADM"
+    ],
+    "M_377": [
+        "GAPDH",
+        "GAPDHS"
+    ],
+    "M_609": [
+        "NANS"
+    ],
+    "M_227": [
+        "THTPA"
+    ],
+    "M_376": [
+        "PGM1",
+        "PGM2",
+        "PGM2"
+    ],
+    "M_1093": [
+        "GLDC"
+    ],
+    "M_930": [
+        "OLAH"
+    ],
+    "M_319": [
+        "UPB1"
+    ],
+    "M_571": [
+        "DCTPP1"
+    ],
+    "M_1076": [
+        "MTM1"
+    ],
+    "M_649": [
+        "PDXK"
+    ],
+    "M_423": [
+        "ACAA2",
+        "ACAA1",
+        "HADHB",
+        "ACAT1",
+        "ACAT2"
+    ],
+    "M_501": [
+        "HYI"
+    ],
+    "M_133": [
+        "GCAT"
+    ],
+    "M_537": [
+        "AK6",
+        "AK7",
+        "AK8",
+        "AK1",
+        "AK2",
+        "AK4",
+        "AK5",
+        "TAF9"
+    ],
+    "M_569": [
+        "CMPK2",
+        "CMPK1"
+    ],
+    "M_844": [
+        "PNMT"
+    ],
+    "M_975": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_1094": [
+        "INPP1"
+    ],
+    "M_451": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6"
+    ],
+    "M_1167": [
+        "BAAT"
+    ],
+    "M_511": [
+        "DHCR24"
+    ],
+    "M_352": [
+        "AFMID"
+    ],
+    "M_123": [
+        "PC"
+    ],
+    "M_272": [
+        "IL4I1"
+    ],
+    "M_366": [
+        "CHAT"
+    ],
+    "M_49": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_365": [
+        "CHKA",
+        "CHKB"
+    ],
+    "M_545": [
+        "TYMP"
+    ],
+    "M_730": [
+        "AOC1"
+    ],
+    "M_459": [
+        "SLC27A2",
+        "ACSL1",
+        "ACSL3",
+        "ACSL4",
+        "ACSBG1",
+        "ACSL6",
+        "ACSL5",
+        "ACSBG2"
+    ],
+    "M_262": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_809": [
+        "BBOX1"
+    ],
+    "M_422": [
+        "ACSM1",
+        "ACSM2A",
+        "ACSM4",
+        "ACSM2B",
+        "ACSM5",
+        "ACSM3"
+    ],
+    "M_330": [
+        "DHFR",
+        "DHFR2"
+    ],
+    "M_258": [
+        "ALDH4A1"
+    ],
+    "M_485": [
+        "MGLL",
+        "ABHD12",
+        "ABHD6"
+    ],
+    "M_951": [
+        "FDFT1"
+    ],
+    "M_904": [
+        "CYP11B1",
+        "CYP11B2"
+    ],
+    "M_92": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_249": [
+        "DDC"
+    ],
+    "M_1154": [
+        "EPRS",
+        "PARS2"
+    ],
+    "M_639": [
+        "UPP2",
+        "UPP1"
+    ],
+    "M_558": [
+        "ALOX12B",
+        "ALOX15B"
+    ],
+    "M_5": [
+        "HEXDC",
+        "HEXA",
+        "HEXB"
+    ],
+    "M_1046": [
+        "CARNS1"
+    ],
+    "M_507": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_1249": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_838": [
+        "HPD"
+    ],
+    "M_368": [
+        "ACHE"
+    ],
+    "M_199": [
+        "RFK"
+    ],
+    "M_628": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_94": [
+        "IDH1",
+        "IDH2"
+    ],
+    "M_128": [
+        "IL4I1"
+    ],
+    "M_401": [
+        "TRIT1"
+    ],
+    "M_828": [
+        "PDXK"
+    ],
+    "M_71": [
+        "ME2"
+    ],
+    "M_806": [
+        "BLVRA",
+        "BLVRB"
+    ],
+    "M_326": [
+        "ACSS2",
+        "ACSS1",
+        "ACSS3"
+    ],
+    "M_1168": [
+        "SCP2"
+    ],
+    "M_885": [
+        "HAAO"
+    ],
+    "M_790": [
+        "HSD17B1",
+        "HSD17B2",
+        "HSD17B12",
+        "HSD17B7",
+        "HSD17B8",
+        "HSD17B6"
+    ],
+    "M_1152": [
+        "MARS",
+        "MARS2"
+    ],
+    "M_1206": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_663": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1"
+    ],
+    "M_652": [
+        "CPT1C",
+        "CPT1A",
+        "CPT1B",
+        "CPT2"
+    ],
+    "M_69": [
+        "PKLR",
+        "PKM"
+    ],
+    "M_255": [
+        "LDHAL6A",
+        "LDHA",
+        "LDHB",
+        "LDHC",
+        "LDHAL6B"
+    ],
+    "M_1056": [
+        "OGDH",
+        "DHTKD1",
+        "OGDHL"
+    ],
+    "M_819": [
+        "ADO"
+    ],
+    "M_977": [
+        "NQO1"
+    ],
+    "M_274": [
+        "TAT",
+        "GOT1",
+        "GOT2"
+    ],
+    "M_711": [
+        "TK1",
+        "TK2"
+    ],
+    "M_984": [
+        "GBA3"
+    ],
+    "M_555": [
+        "AASDHPPT"
+    ],
+    "M_803": [
+        "MAOA",
+        "MAOB",
+        "AOC2",
+        "AOC3"
+    ],
+    "M_112": [
+        "ACSS2",
+        "ACSS1"
+    ],
+    "M_1233": [
+        "MECR",
+        "PECR"
+    ],
+    "M_654": [
+        "MPST",
+        "TST"
+    ],
+    "M_62": [
+        "FHIT"
+    ],
+    "M_74": [
+        "SDS",
+        "SDSL"
+    ],
+    "M_243": [
+        "OAT"
+    ],
+    "M_229": [
+        "OGDH",
+        "DHTKD1",
+        "OGDHL"
+    ],
+    "M_276": [
+        "ACACA",
+        "ACACB"
+    ],
+    "M_471": [
+        "CEPT1",
+        "CHPT1"
+    ],
+    "M_338": [
+        "GALT"
+    ],
+    "M_1151": [
+        "KARS"
+    ],
+    "M_346": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_78": [
+        "ACSS2",
+        "ACSS1"
+    ],
+    "M_174": [
+        "HAO2",
+        "HAO1"
+    ],
+    "M_681": [
+        "RRM2B",
+        "RRM1",
+        "RRM2"
+    ],
+    "M_708": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_60": [
+        "NUDT2"
+    ],
+    "M_67": [
+        "AHCYL1",
+        "AHCY",
+        "AHCYL2"
+    ],
+    "M_648": [
+        "DCXR"
+    ],
+    "M_320": [
+        "ABAT"
+    ],
+    "M_93": [
+        "IDH1",
+        "IDH2"
+    ],
+    "M_474": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1"
+    ],
+    "M_211": [
+        "CAD"
+    ],
+    "M_390": [
+        "BCAT1",
+        "BCAT2"
+    ],
+    "M_1155": [
+        "SARS2",
+        "SARS"
+    ],
+    "M_658": [
+        "FPGT"
+    ],
+    "M_56": [
+        "MAT2B",
+        "MAT1A",
+        "MAT2A"
+    ],
+    "M_899": [
+        "GNE"
+    ],
+    "M_695": [
+        "AMDHD2"
+    ],
+    "M_799": [
+        "AWAT2",
+        "DGAT1"
+    ],
+    "M_688": [
+        "PLD4",
+        "PLD3",
+        "PLD1",
+        "PLD2"
+    ],
+    "M_58": [
+        "AMPD1",
+        "AMPD2",
+        "AMPD3"
+    ],
+    "M_772": [
+        "PNP"
+    ],
+    "M_305": [
+        "KHK"
+    ],
+    "M_1031": [
+        "PPOX"
+    ],
+    "M_801": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_324": [
+        "ACADM"
+    ],
+    "M_1163": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_406": [
+        "HPRT1"
+    ],
+    "M_54": [
+        "PHOSPHO2",
+        "PDXP"
+    ],
+    "M_1105": [
+        "PIP5KL1",
+        "PIP5K1C",
+        "PIP5K1A",
+        "PIP5K1B"
+    ],
+    "M_31": [
+        "NNT"
+    ],
+    "M_902": [
+        "CYP11A1"
+    ],
+    "M_236": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_557": [
+        "ALOX12B",
+        "ALOX15B"
+    ],
+    "M_367": [
+        "CHDH"
+    ],
+    "M_245": [
+        "ACY1"
+    ],
+    "M_1130": [
+        "SCLY"
+    ],
+    "M_198": [
+        "ACP6",
+        "ACP1",
+        "ACP2",
+        "ACP5",
+        "ACPP",
+        "ACP4"
+    ],
+    "M_457": [
+        "MECR",
+        "PECR"
+    ],
+    "M_192": [
+        "PAPSS2",
+        "PAPSS1"
+    ],
+    "M_345": [
+        "UPRT"
+    ],
+    "M_260": [
+        "IDH3A",
+        "IDH3B",
+        "IDH3G"
+    ],
+    "M_1051": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_590": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_746": [
+        "CYP17A1"
+    ],
+    "M_896": [
+        "DDC"
+    ],
+    "M_855": [
+        "ALDH7A1"
+    ],
+    "M_753": [
+        "DHFR",
+        "DHFR2"
+    ],
+    "M_996": [
+        "LTA4H"
+    ],
+    "M_840": [
+        "MAOA",
+        "MAOB",
+        "AOC2",
+        "AOC3"
+    ],
+    "M_913": [
+        "LYPLA1",
+        "PNPLA6",
+        "LYPLA2",
+        "CLC",
+        "PLB1",
+        "PLA2G15",
+        "ASPG",
+        "PNPLA7"
+    ],
+    "M_200": [
+        "ARG1",
+        "ARG2"
+    ],
+    "M_586": [
+        "PNPO"
+    ],
+    "M_398": [
+        "GLB1"
+    ],
+    "M_429": [
+        "GLA"
+    ],
+    "M_257": [
+        "ALDH6A1"
+    ],
+    "M_173": [
+        "HOGA1"
+    ],
+    "M_824": [
+        "PNP",
+        "UPP2",
+        "UPP1",
+        "TYMP"
+    ],
+    "M_633": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_9": [
+        "BCO1"
+    ],
+    "M_425": [
+        "MIOX"
+    ],
+    "M_668": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_304": [
+        "ADPRM"
+    ],
+    "M_591": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_887": [
+        "CAT"
+    ],
+    "M_723": [
+        "ALDH1A1",
+        "ALDH1A2"
+    ],
+    "M_1120": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_502": [
+        "CAD"
+    ],
+    "M_1028": [
+        "TPO"
+    ],
+    "M_1068": [
+        "NMRK2",
+        "NMRK1"
+    ],
+    "M_622": [
+        "AKR1D1"
+    ],
+    "M_782": [
+        "NMRK2",
+        "NMRK1"
+    ],
+    "M_8": [
+        "TYR"
+    ],
+    "M_573": [
+        "GDA"
+    ],
+    "M_565": [
+        "PGM2L1"
+    ],
+    "M_20": [
+        "HMBS"
+    ],
+    "M_72": [
+        "ME3",
+        "ME1"
+    ],
+    "M_724": [
+        "ADH1A",
+        "ADH1B",
+        "ADH1C",
+        "ADH4",
+        "ADH5",
+        "ADH6",
+        "ADH7",
+        "SDR16C5",
+        "HSD17B6"
+    ],
+    "M_1061": [
+        "CYP11B1",
+        "CYP11B2"
+    ],
+    "M_898": [
+        "GNE"
+    ],
+    "M_771": [
+        "PNP"
+    ],
+    "M_314": [
+        "GCLC"
+    ],
+    "M_428": [
+        "IMPA1",
+        "IMPA2",
+        "IMPAD1"
+    ],
+    "M_152": [
+        "GALE"
+    ],
+    "M_166": [
+        "PNPT1"
+    ],
+    "M_802": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_1085": [
+        "STS"
+    ],
+    "M_915": [
+        "PNP",
+        "TYMP"
+    ],
+    "M_624": [
+        "HSD3B1",
+        "HSD3B2"
+    ],
+    "M_606": [
+        "CDS1",
+        "CDS2"
+    ],
+    "M_725": [
+        "AOX1"
+    ],
+    "M_190": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_1021": [
+        "DBT"
+    ],
+    "M_135": [
+        "MYBBP1A",
+        "POLQ",
+        "POLI",
+        "POLL",
+        "POLM",
+        "POLN",
+        "POLK",
+        "POLE3",
+        "POLA1",
+        "POLB",
+        "POLD1",
+        "POLE",
+        "POLE2",
+        "POLG",
+        "POLH",
+        "POLE4",
+        "REV3L"
+    ],
+    "M_653": [
+        "SPHK2",
+        "SPHK1"
+    ],
+    "M_437": [
+        "MTHFD1"
+    ],
+    "M_1188": [
+        "NQO1"
+    ],
+    "M_80": [
+        "ACAT1",
+        "ACAT2"
+    ],
+    "M_413": [
+        "AOC1"
+    ],
+    "M_742": [
+        "IL4I1"
+    ],
+    "M_391": [
+        "GALK1",
+        "GALK2"
+    ],
+    "M_596": [
+        "HSD17B12"
+    ],
+    "M_1136": [
+        "ALOX15",
+        "ALOX15B"
+    ],
+    "M_116": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_971": [
+        "GLA"
+    ],
+    "M_638": [
+        "UMPS"
+    ],
+    "M_832": [
+        "HSD3B1",
+        "HSD3B2"
+    ],
+    "M_1219": [
+        "CYP11A1"
+    ],
+    "M_705": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_1246": [
+        "PLA2G16"
+    ],
+    "M_212": [
+        "ASNS"
+    ],
+    "M_207": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_643": [
+        "GAMT"
+    ],
+    "M_419": [
+        "HDC",
+        "DDC"
+    ],
+    "M_1157": [
+        "WARS2",
+        "WARS"
+    ],
+    "M_527": [
+        "GLYCTK"
+    ],
+    "M_311": [
+        "GMDS"
+    ],
+    "M_966": [
+        "UROC1"
+    ],
+    "M_17": [
+        "CP",
+        "FTH1",
+        "FTMT"
+    ],
+    "M_1086": [
+        "SULT2B1"
+    ],
+    "M_575": [
+        "GAD1",
+        "GAD2",
+        "CSAD"
+    ],
+    "M_341": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_525": [
+        "PGK1",
+        "PGK2"
+    ],
+    "M_470": [
+        "LPCAT3",
+        "LPCAT4",
+        "LPCAT2",
+        "LPCAT1"
+    ],
+    "M_534": [
+        "PGD"
+    ],
+    "M_158": [
+        "PCK1",
+        "PCK2"
+    ],
+    "M_635": [
+        "PCCA",
+        "PCCB"
+    ],
+    "M_1007": [
+        "LDHAL6A",
+        "LDHA",
+        "LDHB",
+        "LDHC",
+        "LDHAL6B"
+    ],
+    "M_1100": [
+        "PLCD3",
+        "PLCB1",
+        "PLCE1",
+        "PLCB2",
+        "PLCB3",
+        "PLCB4",
+        "PLCD1",
+        "PLCG1",
+        "PLCG2",
+        "PLCD4",
+        "PLCZ1"
+    ],
+    "M_285": [
+        "GFPT1",
+        "GFPT2"
+    ],
+    "M_731": [
+        "HNMT"
+    ],
+    "M_594": [
+        "XDH"
+    ],
+    "M_698": [
+        "DDC"
+    ],
+    "M_615": [
+        "TH"
+    ],
+    "M_362": [
+        "GNPAT"
+    ],
+    "M_1062": [
+        "MTM1"
+    ],
+    "M_1226": [
+        "GGT6",
+        "GGT1",
+        "GGT7",
+        "GGT5"
+    ],
+    "M_660": [
+        "AADAT",
+        "KYAT3",
+        "KYAT1"
+    ],
+    "M_273": [
+        "TYR"
+    ],
+    "M_882": [
+        "AOX1"
+    ],
+    "M_1096": [
+        "ITPK1"
+    ],
+    "M_266": [
+        "ITPA"
+    ],
+    "M_605": [
+        "PAH"
+    ],
+    "M_182": [
+        "ENPP1",
+        "ENPP3"
+    ],
+    "M_807": [
+        "BLVRA",
+        "BLVRB"
+    ],
+    "M_787": [
+        "CHIT1",
+        "CHIA"
+    ],
+    "M_864": [
+        "CBR1",
+        "CBR3",
+        "CBR1"
+    ],
+    "M_1053": [
+        "COMT"
+    ],
+    "M_906": [
+        "PFKFB1",
+        "PFKFB2",
+        "PFKFB3",
+        "PFKFB4",
+        "TIGAR"
+    ],
+    "M_427": [
+        "IMPA1",
+        "IMPA2",
+        "IMPAD1"
+    ],
+    "M_1172": [
+        "GGCT"
+    ],
+    "M_986": [
+        "NMNAT2",
+        "NMNAT3",
+        "NMNAT1"
+    ],
+    "M_223": [
+        "PIPOX"
+    ],
+    "M_921": [
+        "MCEE"
+    ],
+    "M_888": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_1060": [
+        "HSD3B1",
+        "HSD3B2"
+    ],
+    "M_894": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_540": [
+        "ADA"
+    ],
+    "M_737": [
+        "INMT"
+    ],
+    "M_37": [
+        "COASY"
+    ],
+    "M_585": [
+        "PNPO"
+    ],
+    "M_788": [
+        "SULT1E1"
+    ],
+    "M_204": [
+        "GATM"
+    ],
+    "M_608": [
+        "CDIPT"
+    ],
+    "M_130": [
+        "DAO"
+    ],
+    "M_1191": [
+        "PRODH",
+        "PRODH2"
+    ],
+    "M_487": [
+        "ACSS2",
+        "ACSS1",
+        "ACSS3"
+    ],
+    "M_34": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_908": [
+        "G6PD"
+    ],
+    "M_157": [
+        "PKLR",
+        "PKM"
+    ],
+    "M_370": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_299": [
+        "GPD1L",
+        "GPD1"
+    ],
+    "M_386": [
+        "FH"
+    ],
+    "M_239": [
+        "IL4I1"
+    ],
+    "M_253": [
+        "DDC"
+    ],
+    "M_281": [
+        "FBP1",
+        "FBP2"
+    ],
+    "M_1072": [
+        "B4GALT6"
+    ],
+    "M_217": [
+        "SDS",
+        "SDSL"
+    ],
+    "M_416": [
+        "BUD23",
+        "METTL6",
+        "HEMK1",
+        "METTL2B"
+    ],
+    "M_1228": [
+        "ACOT8"
+    ],
+    "M_44": [
+        "CPS1"
+    ],
+    "M_290": [
+        "ETHE1"
+    ],
+    "M_982": [
+        "KDSR"
+    ],
+    "M_499": [
+        "GRHPR"
+    ],
+    "M_1008": [
+        "MPST",
+        "TST"
+    ],
+    "M_784": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_822": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_901": [
+        "ITPA"
+    ],
+    "M_1235": [
+        "ACAA2",
+        "ACAA1",
+        "HADHB"
+    ],
+    "M_848": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_228": [
+        "TPK1"
+    ],
+    "M_1131": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6"
+    ],
+    "M_685": [
+        "PCYT2"
+    ],
+    "M_843": [
+        "MAOA",
+        "MAOB"
+    ],
+    "M_827": [
+        "GCDH"
+    ],
+    "M_937": [
+        "HSD11B2"
+    ],
+    "M_581": [
+        "BCKDHA",
+        "BCKDHB"
+    ],
+    "M_632": [
+        "ITPA"
+    ],
+    "M_835": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_300": [
+        "GK",
+        "GK2"
+    ],
+    "M_1084": [
+        "INPP5J",
+        "INPP5A",
+        "INPP5K"
+    ],
+    "M_426": [
+        "IMPA1",
+        "IMPA2",
+        "IMPAD1"
+    ],
+    "M_417": [
+        "CARNS1"
+    ],
+    "M_1043": [
+        "PDHA1",
+        "PDHA2",
+        "PDHB"
+    ],
+    "M_374": [
+        "NUDT5",
+        "NUDT9",
+        "ADPRM",
+        "NUDT5"
+    ],
+    "M_224": [
+        "SARDH"
+    ],
+    "M_383": [
+        "HLCS"
+    ],
+    "M_839": [
+        "GRHPR"
+    ],
+    "M_1128": [
+        "SEPHS2",
+        "SEPHS1"
+    ],
+    "M_1038": [
+        "PMVK"
+    ],
+    "M_728": [
+        "HPRT1"
+    ],
+    "M_679": [
+        "RRM2B",
+        "RRM1",
+        "RRM2"
+    ],
+    "M_307": [
+        "PHPT1"
+    ],
+    "M_517": [
+        "MMAB"
+    ],
+    "M_755": [
+        "LPIN1",
+        "LPIN3",
+        "PLPP1",
+        "PLPP2",
+        "PLPP3",
+        "LPIN2"
+    ],
+    "M_79": [
+        "ACSS2",
+        "ACSS1"
+    ],
+    "M_992": [
+        "AARS",
+        "AARS2"
+    ],
+    "M_1069": [
+        "QPRT"
+    ],
+    "M_497": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_149": [
+        "OXCT1",
+        "OXCT2"
+    ],
+    "M_529": [
+        "BPGM"
+    ],
+    "M_1065": [
+        "MIF"
+    ],
+    "M_936": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6"
+    ],
+    "M_634": [
+        "PKLR",
+        "PKM"
+    ],
+    "M_328": [
+        "ALDH6A1"
+    ],
+    "M_59": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_189": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_104": [
+        "GALE"
+    ],
+    "M_820": [
+        "AKR1C4",
+        "AKR1C4",
+        "AKR1C1",
+        "AKR1C2",
+        "AKR1C3"
+    ],
+    "M_1052": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_342": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_683": [
+        "AASDHPPT"
+    ],
+    "M_180": [
+        "GSS"
+    ],
+    "M_434": [
+        "RENBP"
+    ],
+    "M_972": [
+        "RGN"
+    ],
+    "M_510": [
+        "DHCR7"
+    ],
+    "M_552": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1",
+        "GCK"
+    ],
+    "M_561": [
+        "ABAT"
+    ],
+    "M_770": [
+        "AMDHD1"
+    ],
+    "M_1224": [
+        "TPO"
+    ],
+    "M_1165": [
+        "AKR1D1"
+    ],
+    "M_35": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_1149": [
+        "IARS",
+        "IARS2"
+    ],
+    "M_556": [
+        "MCAT",
+        "FASN"
+    ],
+    "M_709": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_363": [
+        "TPI1"
+    ],
+    "M_743": [
+        "BCAT1",
+        "BCAT2"
+    ],
+    "M_82": [
+        "GLUD1",
+        "GLUD2"
+    ],
+    "M_641": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_1220": [
+        "KYNU"
+    ],
+    "M_75": [
+        "ACOT12"
+    ],
+    "M_1001": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_332": [
+        "DHFR",
+        "DHFR2"
+    ],
+    "M_846": [
+        "DBH"
+    ],
+    "M_51": [
+        "FLAD1"
+    ],
+    "M_261": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1",
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_757": [
+        "AGPAT1",
+        "AGPAT2",
+        "MBOAT2",
+        "MBOAT1",
+        "LCLAT1",
+        "ABHD5",
+        "AGPAT3",
+        "AGPAT4"
+    ],
+    "M_829": [
+        "PHOSPHO2",
+        "PDXP"
+    ],
+    "M_650": [
+        "PHOSPHO2",
+        "PDXP"
+    ],
+    "M_744": [
+        "PIPOX"
+    ],
+    "M_403": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_50": [
+        "ENPP1",
+        "ENPP3"
+    ],
+    "M_837": [
+        "HGD"
+    ],
+    "M_440": [
+        "APRT",
+        "HPRT1"
+    ],
+    "M_856": [
+        "ALDH7A1"
+    ],
+    "M_1030": [
+        "CPOX"
+    ],
+    "M_155": [
+        "ITPA"
+    ],
+    "M_989": [
+        "ECHS1",
+        "EHHADH",
+        "HADHA"
+    ],
+    "M_1129": [
+        "TXNRD2",
+        "TXNRD3",
+        "TXNRD1"
+    ],
+    "M_172": [
+        "HOGA1"
+    ],
+    "M_456": [
+        "ACOT2",
+        "ACOT7",
+        "ACOT4",
+        "BAAT",
+        "ACOT1",
+        "PPT1",
+        "PPT2"
+    ],
+    "M_188": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_560": [
+        "TKT",
+        "TKTL1",
+        "TKTL2"
+    ],
+    "M_965": [
+        "AANAT"
+    ],
+    "M_826": [
+        "GCDH"
+    ],
+    "M_202": [
+        "NOS1",
+        "NOS2",
+        "NOS3"
+    ],
+    "M_1098": [
+        "ITPKA",
+        "ITPKB",
+        "ITPKC"
+    ],
+    "M_164": [
+        "PNPT1"
+    ],
+    "M_857": [
+        "ALDOA",
+        "ALDOB",
+        "ALDOC"
+    ],
+    "M_102": [
+        "ENPP1",
+        "ENPP3"
+    ],
+    "M_645": [
+        "PCYT1A",
+        "PCYT1B"
+    ],
+    "M_247": [
+        "IL4I1"
+    ],
+    "M_767": [
+        "DPYS"
+    ],
+    "M_70": [
+        "PDHA1",
+        "PDHA2",
+        "PDHB",
+        "DLD",
+        "DLAT"
+    ],
+    "M_1042": [
+        "PPCDC"
+    ],
+    "M_684": [
+        "PGLS",
+        "H6PD"
+    ],
+    "M_103": [
+        "UGP2"
+    ],
+    "M_714": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_773": [
+        "PNP"
+    ],
+    "M_439": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_963": [
+        "IDO2",
+        "IDO1"
+    ],
+    "M_222": [
+        "LPO",
+        "EPX",
+        "PRDX6"
+    ],
+    "M_796": [
+        "TYR"
+    ],
+    "M_623": [
+        "HSD17B2",
+        "HSD17B8",
+        "HSD17B6"
+    ],
+    "M_697": [
+        "TYR"
+    ],
+    "M_625": [
+        "HSD17B3",
+        "AKR1C3"
+    ],
+    "M_720": [
+        "PYGB",
+        "PYGL",
+        "PYGM"
+    ],
+    "M_389": [
+        "ASL"
+    ],
+    "M_15": [
+        "PTGS1",
+        "PTGS2"
+    ],
+    "M_1036": [
+        "PFKL",
+        "PFKM",
+        "PFKP"
+    ],
+    "M_800": [
+        "PNPLA4"
+    ],
+    "M_496": [
+        "MIF"
+    ],
+    "M_1004": [
+        "ALDH7A1"
+    ],
+    "M_703": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_781": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_315": [
+        "GOT1",
+        "GOT2"
+    ],
+    "M_1025": [
+        "UROD"
+    ],
+    "M_159": [
+        "SUCLG2",
+        "SUCLG1",
+        "SUCLA2"
+    ],
+    "M_990": [
+        "COASY"
+    ],
+    "M_356": [
+        "DOLPP1"
+    ],
+    "M_105": [
+        "GYS1",
+        "GYS2"
+    ],
+    "M_512": [
+        "SOAT1",
+        "SOAT2"
+    ],
+    "M_136": [
+        "MYBBP1A",
+        "POLQ",
+        "POLI",
+        "POLL",
+        "POLM",
+        "POLN",
+        "POLK",
+        "POLE3",
+        "POLA1",
+        "POLB",
+        "POLD1",
+        "POLE",
+        "POLE2",
+        "POLG",
+        "POLH",
+        "POLE4",
+        "REV3L"
+    ],
+    "M_1089": [
+        "LYPLA1",
+        "PNPLA6",
+        "LYPLA2",
+        "CLC",
+        "PLB1",
+        "PLA2G15",
+        "ASPG",
+        "PNPLA7"
+    ],
+    "M_917": [
+        "RBKS"
+    ],
+    "M_347": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_442": [
+        "GMPS"
+    ],
+    "M_673": [
+        "GATM"
+    ],
+    "M_87": [
+        "GLS2",
+        "GLS"
+    ],
+    "M_554": [
+        "FASN"
+    ],
+    "M_769": [
+        "FTCD"
+    ],
+    "M_563": [
+        "MTHFD2",
+        "MTHFD2L",
+        "MTHFD1"
+    ],
+    "M_10": [
+        "ALAD"
+    ],
+    "M_793": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_646": [
+        "IDH1",
+        "IDH2"
+    ],
+    "M_677": [
+        "FDPS",
+        "GGPS1"
+    ],
+    "M_65": [
+        "APRT",
+        "HPRT1"
+    ],
+    "M_604": [
+        "QDPR"
+    ],
+    "M_405": [
+        "IMPDH1",
+        "IMPDH2"
+    ],
+    "M_86": [
+        "GLUL"
+    ],
+    "M_110": [
+        "FECH"
+    ],
+    "M_613": [
+        "SPR"
+    ],
+    "M_1150": [
+        "LARS2",
+        "LARS"
+    ],
+    "M_263": [
+        "ALDH5A1"
+    ],
+    "M_372": [
+        "PRPS1L1",
+        "PRPS1",
+        "PRPS2"
+    ],
+    "M_999": [
+        "CYP19A1"
+    ],
+    "M_1104": [
+        "TMLHE"
+    ],
+    "M_292": [
+        "SI",
+        "GAA",
+        "GANC",
+        "MGAM"
+    ],
+    "M_472": [
+        "ACO1",
+        "ACO2"
+    ],
+    "M_1002": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_675": [
+        "CNDP2",
+        "CNDP1"
+    ],
+    "M_153": [
+        "GNE"
+    ],
+    "M_364": [
+        "DOLK"
+    ],
+    "M_548": [
+        "ALOX15",
+        "ALOX15B"
+    ],
+    "M_61": [
+        "ADK",
+        "DCK"
+    ],
+    "M_310": [
+        "GMPPB",
+        "GMPPA"
+    ],
+    "M_535": [
+        "RPE",
+        "RPEL1"
+    ],
+    "M_321": [
+        "CARNS1"
+    ],
+    "M_523": [
+        "GBA",
+        "GBA2"
+    ],
+    "M_6": [
+        "GBA3"
+    ],
+    "M_1003": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_785": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_85": [
+        "OPLAH"
+    ],
+    "M_891": [
+        "CEL",
+        "PNLIPRP3",
+        "AADAC",
+        "LIPC",
+        "PNLIP",
+        "PNLIPRP1",
+        "PNLIPRP2",
+        "PNPLA2",
+        "PNPLA3",
+        "LIPF",
+        "LIPG"
+    ],
+    "M_1087": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6",
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_1015": [
+        "FUK"
+    ],
+    "M_1143": [
+        "RARS2",
+        "RARS"
+    ],
+    "M_489": [
+        "HMGCL"
+    ],
+    "M_883": [
+        "ACADS",
+        "ACADM",
+        "ACADSB",
+        "ACAD8"
+    ],
+    "M_414": [
+        "SAT2",
+        "SAT1"
+    ],
+    "M_483": [
+        "CYP4A11",
+        "CYP4A22"
+    ],
+    "M_213": [
+        "PSPH"
+    ],
+    "M_215": [
+        "AGXT"
+    ],
+    "M_667": [
+        "DGUOK"
+    ],
+    "M_1144": [
+        "NARS",
+        "NARS2"
+    ],
+    "M_849": [
+        "ENPP7",
+        "SMPD3",
+        "SMPD4",
+        "SMPD1",
+        "SMPD2"
+    ],
+    "M_407": [
+        "GMPR",
+        "GMPR2"
+    ],
+    "M_382": [
+        "PPAT"
+    ],
+    "M_460": [
+        "SPTLC1",
+        "SPTLC3",
+        "SPTLC2"
+    ],
+    "M_193": [
+        "SUOX"
+    ],
+    "M_669": [
+        "PNP",
+        "TYMP"
+    ],
+    "M_713": [
+        "TYMS"
+    ],
+    "M_251": [
+        "GOT1",
+        "GOT2",
+        "TAT"
+    ],
+    "M_160": [
+        "ADCY1",
+        "ADCY2",
+        "ADCY3",
+        "ADCY5",
+        "ADCY6",
+        "ADCY7",
+        "ADCY8",
+        "ADCY9",
+        "ADCY4",
+        "ADCY10",
+        "GUCY1A2",
+        "GUCY1A3",
+        "GUCY1B3",
+        "GUCY2C",
+        "GUCY2F",
+        "GUCY2D",
+        "NPR1",
+        "NPR2"
+    ],
+    "M_815": [
+        "GOT1",
+        "GOT2"
+    ],
+    "M_674": [
+        "CARNS1"
+    ],
+    "M_792": [
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_392": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_55": [
+        "PDXK"
+    ],
+    "M_418": [
+        "CNDP2",
+        "CNDP1"
+    ],
+    "M_1227": [
+        "TPO"
+    ],
+    "M_96": [
+        "GPX6",
+        "GPX1",
+        "GPX2",
+        "GPX3",
+        "GPX5",
+        "GPX7",
+        "GPX8"
+    ],
+    "M_297": [
+        "MUT"
+    ],
+    "M_101": [
+        "UGDH"
+    ],
+    "M_264": [
+        "AASS"
+    ],
+    "M_351": [
+        "KYNU"
+    ],
+    "M_783": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_186": [
+        "CMPK2",
+        "CMPK1"
+    ],
+    "M_777": [
+        "AASS"
+    ],
+    "M_331": [
+        "DHFR",
+        "DHFR2"
+    ],
+    "M_514": [
+        "CYP7A1"
+    ],
+    "M_23": [
+        "ADCY1",
+        "ADCY2",
+        "ADCY3",
+        "ADCY5",
+        "ADCY6",
+        "ADCY7",
+        "ADCY8",
+        "ADCY9",
+        "ADCY4",
+        "ADCY10"
+    ],
+    "M_399": [
+        "CMAS"
+    ],
+    "M_271": [
+        "SUCLG2",
+        "SUCLG1",
+        "SUCLA2"
+    ],
+    "M_256": [
+        "ALDH6A1"
+    ],
+    "M_655": [
+        "OGDH",
+        "DHTKD1",
+        "OGDHL"
+    ],
+    "M_348": [
+        "NUDT2"
+    ],
+    "M_942": [
+        "CYP11B1",
+        "CYP11B2"
+    ],
+    "M_716": [
+        "XDH"
+    ],
+    "M_98": [
+        "PNPO"
+    ],
+    "M_852": [
+        "ADA"
+    ],
+    "M_816": [
+        "DAO"
+    ],
+    "M_533": [
+        "H6PD"
+    ],
+    "M_515": [
+        "CHKA",
+        "CHKB",
+        "ETNK2",
+        "ETNK1"
+    ],
+    "M_960": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_254": [
+        "FDFT1"
+    ],
+    "M_1080": [
+        "HYKK"
+    ],
+    "M_682": [
+        "RRM2B",
+        "RRM1",
+        "RRM2"
+    ],
+    "M_1243": [
+        "MAOA",
+        "MAOB"
+    ],
+    "M_1208": [
+        "EHMT2",
+        "EZH1",
+        "EZH2",
+        "SETD1B",
+        "SETD2",
+        "KMT5A",
+        "KMT2A",
+        "KMT5B",
+        "NSD3",
+        "ASH1L",
+        "KMT2E",
+        "KMT2C",
+        "SETMAR",
+        "NSD1",
+        "SUV39H1",
+        "NSD2",
+        "SUV39H2",
+        "EHMT1",
+        "KMT2D",
+        "SETD7",
+        "SETDB2",
+        "DOT1L",
+        "KMT5C",
+        "SETD1A",
+        "KMT2B",
+        "SETDB1"
+    ],
+    "M_601": [
+        "MGAM"
+    ],
+    "M_736": [
+        "MAOA",
+        "MAOB",
+        "AOC1"
+    ],
+    "M_246": [
+        "ODC1"
+    ],
+    "M_579": [
+        "OGDH",
+        "DHTKD1",
+        "OGDHL"
+    ],
+    "M_396": [
+        "GLA"
+    ],
+    "M_1169": [
+        "BAAT"
+    ],
+    "M_610": [
+        "NANP"
+    ],
+    "M_91": [
+        "GAD1",
+        "GAD2"
+    ],
+    "M_68": [
+        "LDHD"
+    ],
+    "M_283": [
+        "GNPDA1",
+        "GNPDA2"
+    ],
+    "M_30": [
+        "NOS1",
+        "NOS2",
+        "NOS3"
+    ],
+    "M_3": [
+        "TREH"
+    ],
+    "M_690": [
+        "PLA2G16"
+    ],
+    "M_449": [
+        "P4HA3",
+        "P4HA1",
+        "P4HA2"
+    ],
+    "M_862": [
+        "AKR1B1",
+        "AKR1B10"
+    ],
+    "M_593": [
+        "XDH"
+    ],
+    "M_549": [
+        "ALOX5"
+    ],
+    "M_1095": [
+        "ITPK1"
+    ],
+    "M_1113": [
+        "VKORC1"
+    ],
+    "M_435": [
+        "BCAT1",
+        "BCAT2"
+    ],
+    "M_306": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "HKDC1"
+    ],
+    "M_1132": [
+        "CYP27B1"
+    ],
+    "M_958": [
+        "AKR1D1"
+    ],
+    "M_1059": [
+        "CYP21A2"
+    ],
+    "M_1101": [
+        "LPCAT2",
+        "LPCAT1"
+    ],
+    "M_626": [
+        "CYP19A1"
+    ],
+    "M_444": [
+        "PDE10A",
+        "PDE7B",
+        "PDE11A",
+        "PDE11A",
+        "PDE1A",
+        "PDE1C",
+        "PDE2A",
+        "PDE3A",
+        "PDE3B",
+        "PDE4A",
+        "PDE4B",
+        "PDE4C",
+        "PDE4D",
+        "PDE7A",
+        "PDE8A",
+        "PDE1B",
+        "PDE8B",
+        "PDE11A",
+        "PDE11A",
+        "PDE6A",
+        "PDE6C",
+        "PDE9A",
+        "PDE6B",
+        "PDE5A"
+    ],
+    "M_851": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_574": [
+        "GLB1",
+        "LCT"
+    ],
+    "M_33": [
+        "BST1",
+        "CD38"
+    ],
+    "M_1011": [
+        "ASMT"
+    ],
+    "M_995": [
+        "DPYS"
+    ],
+    "M_717": [
+        "AMY1A",
+        "AMY1B",
+        "AMY1C",
+        "AMY2A",
+        "AMY2B"
+    ],
+    "M_651": [
+        "SRM"
+    ],
+    "M_588": [
+        "NAPRT"
+    ],
+    "M_353": [
+        "SDS",
+        "SDSL"
+    ],
+    "M_400": [
+        "MVD"
+    ],
+    "M_701": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_721": [
+        "LCAT"
+    ],
+    "M_933": [
+        "BHMT"
+    ],
+    "M_719": [
+        "GBE1"
+    ],
+    "M_550": [
+        "ALOX12"
+    ],
+    "M_498": [
+        "UXS1"
+    ],
+    "M_1014": [
+        "HIBCH"
+    ],
+    "M_267": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_488": [
+        "AACS"
+    ],
+    "M_959": [
+        "DAO"
+    ],
+    "M_291": [
+        "CTH"
+    ],
+    "M_1178": [
+        "ACOX1",
+        "ACOX3",
+        "ACADM",
+        "ACADL",
+        "ACAD8"
+    ],
+    "M_506": [
+        "DHDH"
+    ],
+    "M_541": [
+        "PNP"
+    ],
+    "M_1264": [
+        "AMT"
+    ],
+    "M_420": [
+        "HAL"
+    ],
+    "M_343": [
+        "UCKL1",
+        "UCK2",
+        "UCK1"
+    ],
+    "M_964": [
+        "INMT"
+    ],
+    "M_206": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3"
+    ],
+    "M_1207": [
+        "AOX1"
+    ],
+    "M_1090": [
+        "LYPLA1",
+        "PNPLA6",
+        "LYPLA2",
+        "CLC",
+        "PLB1",
+        "PLA2G15",
+        "ASPG",
+        "PNPLA7"
+    ],
+    "M_76": [
+        "MLYCD"
+    ],
+    "M_137": [
+        "MYBBP1A",
+        "POLQ",
+        "POLI",
+        "POLL",
+        "POLM",
+        "POLN",
+        "POLK",
+        "POLE3",
+        "POLA1",
+        "POLB",
+        "POLD1",
+        "POLE",
+        "POLE2",
+        "POLG",
+        "POLH",
+        "POLE4",
+        "REV3L"
+    ],
+    "M_40": [
+        "NMNAT2",
+        "NMNAT3",
+        "NMNAT1"
+    ],
+    "M_850": [
+        "CERS1",
+        "CERS3",
+        "CERS6",
+        "CERS2",
+        "CERS4",
+        "CERS5"
+    ],
+    "M_1074": [
+        "PI4KA",
+        "PI4KB",
+        "PI4K2B",
+        "PI4K2A"
+    ],
+    "M_542": [
+        "DMGDH"
+    ],
+    "M_576": [
+        "GGT6",
+        "GGT1",
+        "GGT7",
+        "GGT5"
+    ],
+    "M_962": [
+        "MAOA",
+        "MAOB"
+    ],
+    "M_463": [
+        "CBS"
+    ],
+    "M_1198": [
+        "CYP11B1",
+        "CYP11B2"
+    ],
+    "M_1078": [
+        "MINPP1"
+    ],
+    "M_121": [
+        "HDDC3"
+    ],
+    "M_340": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3",
+        "CANT1",
+        "ENTPD6",
+        "ENTPD5",
+        "ENTPD4",
+        "NUDT16"
+    ],
+    "M_547": [
+        "PTGS1",
+        "PTGS2"
+    ],
+    "M_830": [
+        "SRD5A1",
+        "SRD5A2",
+        "SRD5A3"
+    ],
+    "M_774": [
+        "AMT"
+    ],
+    "M_156": [
+        "GCH1"
+    ],
+    "M_90": [
+        "NAGS"
+    ],
+    "M_1242": [
+        "GLA"
+    ],
+    "M_692": [
+        "PEMT"
+    ],
+    "M_791": [
+        "HSD17B1",
+        "HSD17B2",
+        "HSD17B12",
+        "HSD17B7",
+        "HSD17B8",
+        "HSD17B6"
+    ],
+    "M_895": [
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_476": [
+        "GLA"
+    ],
+    "M_1222": [
+        "MTFMT"
+    ],
+    "M_761": [
+        "CEL",
+        "PNLIPRP3",
+        "AADAC",
+        "LIPC",
+        "PNLIP",
+        "PNLIPRP1",
+        "PNLIPRP2",
+        "PNPLA2",
+        "PNPLA3",
+        "LIPF",
+        "LIPG"
+    ],
+    "M_584": [
+        "AOX1"
+    ],
+    "M_126": [
+        "ACLY"
+    ],
+    "M_693": [
+        "CEPT1",
+        "SELENOI"
+    ],
+    "M_831": [
+        "AKR1D1"
+    ],
+    "M_572": [
+        "DCTPP1"
+    ],
+    "M_918": [
+        "AGK"
+    ],
+    "M_858": [
+        "DLAT"
+    ],
+    "M_702": [
+        "GUK1"
+    ],
+    "M_1067": [
+        "NT5C1B-RDH14",
+        "NT5C3B",
+        "NT5C2",
+        "NT5C",
+        "NT5E",
+        "NT5C3A",
+        "NT5M",
+        "NT5C1A",
+        "NT5C1B"
+    ],
+    "M_335": [
+        "MTHFD1L",
+        "MTHFD1"
+    ],
+    "M_259": [
+        "ALDH4A1"
+    ],
+    "M_1179": [
+        "ACAA2",
+        "ACAA1",
+        "HADHB"
+    ],
+    "M_798": [
+        "AWAT2",
+        "DGAT1"
+    ],
+    "M_482": [
+        "CYP4A11",
+        "CYP4A22"
+    ],
+    "M_473": [
+        "ACO1",
+        "ACO2"
+    ],
+    "M_1238": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6"
+    ],
+    "M_45": [
+        "ENTPD8",
+        "ENTPD1",
+        "ENTPD3",
+        "CANT1",
+        "ENTPD6",
+        "ENTPD5",
+        "ENTPD4"
+    ],
+    "M_1006": [
+        "ALDH7A1"
+    ],
+    "M_81": [
+        "ALDH18A1"
+    ],
+    "M_907": [
+        "PFKFB1",
+        "PFKFB2",
+        "PFKFB3",
+        "PFKFB4"
+    ],
+    "M_706": [
+        "DTYMK"
+    ],
+    "M_308": [
+        "SORD"
+    ],
+    "M_124": [
+        "NIT2"
+    ],
+    "M_659": [
+        "ASS1"
+    ],
+    "M_526": [
+        "PHGDH"
+    ],
+    "M_387": [
+        "ADSL"
+    ],
+    "M_1234": [
+        "ACOX1",
+        "ACOX3",
+        "ACADM",
+        "ACADL",
+        "ACADVL"
+    ],
+    "M_1077": [
+        "MINPP1"
+    ],
+    "M_570": [
+        "DCK"
+    ],
+    "M_1075": [
+        "PIK3C3"
+    ],
+    "M_1223": [
+        "BUD23",
+        "METTL6",
+        "HEMK1",
+        "METTL2B"
+    ],
+    "M_32": [
+        "GSR"
+    ],
+    "M_794": [
+        "COQ7",
+        "CYP2A6",
+        "CYP2B6",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2E1",
+        "CYP3A4",
+        "COQ6",
+        "CYP4F8",
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2A7",
+        "CYP3A7",
+        "CYP2A13",
+        "CYP2C8",
+        "CYP2C18",
+        "CYP2D6",
+        "CYP2F1",
+        "CYP2J2",
+        "CYP3A5",
+        "CYP4B1",
+        "CYP4Z1",
+        "CYP4X1",
+        "CYP2S1",
+        "CYP4F11",
+        "CYP3A43",
+        "CYP4F12"
+    ],
+    "M_505": [
+        "DPYD"
+    ],
+    "M_1145": [
+        "CARS2",
+        "CARS"
+    ],
+    "M_1018": [
+        "GPX4"
+    ],
+    "M_478": [
+        "PGP"
+    ],
+    "M_779": [
+        "PKLR",
+        "PKM"
+    ],
+    "M_25": [
+        "CYB5R3",
+        "CYB5R2",
+        "CYB5R1"
+    ],
+    "M_131": [
+        "GNMT"
+    ],
+    "M_627": [
+        "CYP17A1"
+    ],
+    "M_1201": [
+        "ACAA2",
+        "ACAA1",
+        "HADHB"
+    ],
+    "M_431": [
+        "NAGK"
+    ],
+    "M_925": [
+        "SLC27A5"
+    ],
+    "M_176": [
+        "NAT8L"
+    ],
+    "M_208": [
+        "CTPS1",
+        "CTPS2"
+    ],
+    "M_756": [
+        "DGKA",
+        "DGKB",
+        "DGKG",
+        "DGKH",
+        "DGKQ",
+        "DGKZ",
+        "DGKE",
+        "DGKD",
+        "DGKI"
+    ],
+    "M_408": [
+        "ADSSL1",
+        "ADSS"
+    ],
+    "M_179": [
+        "GGT6",
+        "GGT1",
+        "GGT7",
+        "GGT5"
+    ],
+    "M_1215": [
+        "GGT6",
+        "GGT1",
+        "GGT7",
+        "GGT5"
+    ],
+    "M_795": [
+        "UGT2B11",
+        "UGT2A1",
+        "UGT2B28",
+        "UGT1A10",
+        "UGT1A8",
+        "UGT1A7",
+        "UGT1A6",
+        "UGT1A9",
+        "UGT1A4",
+        "UGT1A1",
+        "UGT2A2",
+        "UGT2B4",
+        "UGT2B7",
+        "UGT2B10",
+        "UGT2B15",
+        "UGT2B17",
+        "UGT2A3"
+    ],
+    "M_567": [
+        "DCTD"
+    ],
+    "M_329": [
+        "DHFR",
+        "DHFR2"
+    ],
+    "M_789": [
+        "CYP19A1"
+    ],
+    "M_1241": [
+        "NEU3",
+        "NEU4",
+        "NEU1",
+        "NEU2"
+    ],
+    "M_994": [
+        "ECHS1",
+        "EHHADH",
+        "HADHA"
+    ],
+    "M_678": [
+        "TXNRD2",
+        "TXNRD3",
+        "TXNRD1"
+    ],
+    "M_433": [
+        "CHIT1",
+        "CHIA"
+    ],
+    "M_484": [
+        "LPL"
+    ],
+    "M_1019": [
+        "ACADS",
+        "ACADM",
+        "ACADSB"
+    ],
+    "M_1162": [
+        "DHCR24"
+    ],
+    "M_409": [
+        "NME6",
+        "NME7",
+        "NME1",
+        "NME2",
+        "NME3",
+        "NME4",
+        "NME1-NME2",
+        "NME5"
+    ],
+    "M_530": [
+        "PGAM4",
+        "PGAM1",
+        "PGAM2",
+        "BPGM"
+    ],
+    "M_1153": [
+        "FARSB",
+        "FARS2",
+        "FARSA"
+    ],
+    "M_318": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1",
+        "ALDH3A1",
+        "ALDH1A3",
+        "ALDH3B1",
+        "ALDH3B2"
+    ],
+    "M_66": [
+        "PDE10A",
+        "PDE7B",
+        "PDE11A",
+        "PDE11A",
+        "PDE1A",
+        "PDE1C",
+        "PDE2A",
+        "PDE3A",
+        "PDE3B",
+        "PDE4A",
+        "PDE4B",
+        "PDE4C",
+        "PDE4D",
+        "PDE7A",
+        "PDE8A",
+        "PDE1B",
+        "PDE8B"
+    ],
+    "M_897": [
+        "IDO2",
+        "IDO1"
+    ],
+    "M_448": [
+        "PYCR2",
+        "PYCR1",
+        "PYCR3"
+    ],
+    "M_402": [
+        "IDI1",
+        "IDI2"
+    ],
+    "M_661": [
+        "AFMID"
+    ],
+    "M_751": [
+        "SCD",
+        "SCD5"
+    ],
+    "M_973": [
+        "ALDH2",
+        "ALDH1B1",
+        "ALDH9A1",
+        "ALDH3A2",
+        "ALDH7A1"
+    ],
+    "M_129": [
+        "DDO"
+    ],
+    "M_458": [
+        "ACOX1",
+        "ACOX3",
+        "ACADM",
+        "ACADL",
+        "ACADVL"
+    ],
+    "M_689": [
+        "PLA2G4B",
+        "PLA2G16",
+        "PLA2G4E",
+        "PLB1",
+        "PLA2G4F",
+        "PLA2G2D",
+        "PLA2G4D",
+        "PLA2G2E",
+        "PLA2G2C",
+        "PLA2G3",
+        "PLA2G1B",
+        "PLA2G2A",
+        "PLA2G4A",
+        "PLA2G5",
+        "PLA2G2F",
+        "PLA2G12A",
+        "PLA2G6",
+        "PLA2G10",
+        "PLA2G12B",
+        "PLA2G4C",
+        "JMJD7-PLA2G4B"
+    ],
+    "M_509": [
+        "CYP11A1"
+    ],
+    "M_969": [
+        "COMT"
+    ],
+    "M_312": [
+        "CBS"
+    ]
+}
