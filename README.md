@@ -29,7 +29,7 @@ This project uses a `environment_hpc.yml` (`yml` not `txt`) file to set up the P
    conda env create -f environment_hpc.yml
    ```
 
-   This will automatically create a Conda environment with the name specified in `requirements.yml`. If you need a custom environment name, run:
+   This will automatically create a Conda environment with the name specified in `environment_hpc.yml`. If you need a custom environment name, run:
 
    ```bash
    # conda env create -f environment_hpc.yml --name <your_env_name>
