@@ -19,20 +19,20 @@ If you do not have Miniconda installed:
 ## **Setup**
 
 ### 2. Create a Virtual Python Environment
-This project uses a `environment.yml` (`yml` not `txt`) file to set up the Python environment with all necessary libraries and dependencies.
+This project uses a `environment_hpc.yml` (`yml` not `txt`) file to set up the Python environment with all necessary libraries and dependencies.
 
 1. Open your terminal or command prompt.
 2. Navigate to the project directory (where this `README.md` is located).
 3. Run the following commands:
 
    ```bash
-   conda env create -f environment.yml
+   conda env create -f environment_hpc.yml
    ```
 
    This will automatically create a Conda environment with the name specified in `requirements.yml`. If you need a custom environment name, run:
 
    ```bash
-   # conda env create -f environment.yml --name <your_env_name>
+   # conda env create -f environment_hpc.yml --name <your_env_name>
    ```
 
 4. Activate the newly created environment:
