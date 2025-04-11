@@ -24,7 +24,12 @@ v0.3.0 \
 v0.2.5 \
 v0.2.2 \
 v0.2.1 \
-v0.2.0 \
+v0.2.0:
+1. gating Neural Network
+2. gating Neural Network with attention and dropout
+3. MPO balancing empowered
+4. Rich information Display
+
 v0.1.9 \
 v0.1.8 \
 v0.1.5 \
