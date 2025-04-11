@@ -42,3 +42,5 @@ dependencies:
     - yaml=0.2.5
     - fireducks=1.2.5
     - rich=14.0.0
+    - joblib=1.4.2
+    - kneed=0.8.5
