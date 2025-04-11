@@ -1,0 +1,19 @@
+[project]
+name = "mpoctrl"
+version = "0.5.0"
+description = "Message Passing Optimization-Based Constrained Learning for Flow/Traffic Problems."
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "fireducks>=1.2.6",
+    "joblib>=1.4.2",
+    "kneed>=0.8.5",
+    "lightning>=2.5.1",
+    "matplotlib>=3.10.1",
+    "numba>=0.61.2",
+    "rich>=14.0.0",
+    "scikit-learn>=1.6.1",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
