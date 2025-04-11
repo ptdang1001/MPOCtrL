@@ -61,7 +61,7 @@ def train(
     n_reactions,
 ):
     # set the random seed
-    L.seed_everything(args.seed)
+    #L.seed_everything(args.seed)
     reactions_list = compounds_reactions_df.columns.tolist()
     reactions_geneLength = {
         reaction_i: (
