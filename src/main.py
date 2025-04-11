@@ -4,7 +4,8 @@
 import os, argparse, warnings, shutil
 
 # Third-party library
-import pandas as pd
+#import pandas as pd
+import fireducks.pandas as pd
 import numpy as np
 from tqdm import tqdm
 import torch
