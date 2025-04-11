@@ -2,7 +2,8 @@ import os, json
 
 # import pysnooper
 import numpy as np
-import pandas as pd
+#import pandas as pd
+import fireducks.pandas as pd
 from numba import njit
 import matplotlib.pyplot as plt
 
