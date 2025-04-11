@@ -14,9 +14,9 @@
 # Read the input arguments
 DATA_DIR="/path/to/data/"       # Replace with your data directory
 DATA_NAME="dataset_name.csv.gz" # Replace with your dataset name
-PERCENTAGES="5,10,20,30"        # default percentages using comma as separator, later will be converted to a list [5,10,20,30,40,50,60]
+PERCENTAGES="5,10,20,30,40,50,60"        # default percentages using comma as separator, later will be converted to a list [5,10,20,30,40,50,60]
 
-python filter_dense.py \
+uv run filter_dense.py \
     --data_dir ${DATA_DIR} \
     --data_name ${DATA_NAME} \
     --percentages ${PERCENTAGES}
