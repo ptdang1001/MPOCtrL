@@ -1,5 +1,7 @@
 # this is a python file to test if the libraies are installed correctly
 
+# this is a test
+
 
 def test_python_libraries():
     import numpy as np
@@ -26,10 +28,21 @@ def test_python_libraries():
     import numba
 
     print("Numba Installed Successfully!")
-
     import fireducks.pandas as pd
 
     print("Fireducks Installed Successfully!")
+
+    import rich
+
+    print("Rich Installed Successfully!")
+
+    import joblib
+
+    print("Joblib Installed Successfully!")
+
+    import kneed
+
+    print("Kneed Installed Successfully!")
 
     return True
 
