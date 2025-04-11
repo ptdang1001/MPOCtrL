@@ -15,6 +15,6 @@
 DATA_DIR="/path/to/data/"       # Replace with your data directory
 DATA_NAME="dataset_name.csv.gz" # Replace with your dataset name
 
-python filter_dense.py \
+uv run filter_dense.py \
     --data_dir ${DATA_DIR} \
     --data_name ${DATA_NAME}
