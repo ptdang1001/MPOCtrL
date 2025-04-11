@@ -292,11 +292,11 @@ def data_pre_processing(gene_expression, reactions_genes, compounds_reactions_df
     return gene_expression, reactions_genes, compounds_reactions_df
 
 
-def log_and_min_max_normalize(df):
-    log_df = np.log1p(df)
-    min_vals = log_df.min(axis=0)
-    max_vals = log_df.max(axis=0)
-    normalized_df = (log_df - min_vals) / (max_vals - min_vals + 1e-8)
+def min_max_normalize(df):
+    #log_df = np.log1p(df)
+    min_vals = df.min(axis=0)
+    max_vals = df.max(axis=0)
+    normalized_df = (df - min_vals) / (max_vals - min_vals + 1e-8)
     return normalized_df
 
 
@@ -335,7 +335,7 @@ def normalize_gene_expression(gene_expression, reactions_genes):
         cur_data = None
         if genes is not None:
             cur_data = gene_expression.loc[:, genes].values
-            cur_data = log_and_min_max_normalize(cur_data)
+            cur_data = min_max_normalize(cur_data)
             reactions_gene_expression_normalized[reaction] = cur_data
         else:
             reactions_gene_expression_normalized[reaction] = cur_data
