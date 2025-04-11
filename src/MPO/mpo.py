@@ -1,6 +1,7 @@
 # -*-coding:utf-8-*-
 
-import pandas as pd
+#import pandas as pd
+import fireducks.pandas as pd
 from multiprocessing import Pool, cpu_count
 
 # my libs
