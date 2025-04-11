@@ -17,7 +17,7 @@ gene_expression_file_name=$4
 compounds_reactions_file_name=$5
 reactions_genes_file_name=$6
 
-python3 src/main.py \
+uv run src/main.py \
     --input_dir_path ${input_dir_path} \
     --network_dir_path ${network_dir_path} \
     --output_dir_path ${output_dir_path} \
