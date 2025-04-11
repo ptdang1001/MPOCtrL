@@ -69,8 +69,11 @@ uv --version
 ```bash
 # download the source code by cloning the repository
 git clone https://github.com/ptdang1001/MPOCtrL.git
+cd MPOCtrL
+```
 
-cd MPOCtrL-main
+```bash
+cd MPOCtrL
 ```
 
 ### 2. Install Dependencies
