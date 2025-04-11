@@ -67,25 +67,22 @@ uv --version
 
 ### 1. Download source code
 ```bash
-# download the source code by cloning the repository
 git clone https://github.com/ptdang1001/MPOCtrL.git
-cd MPOCtrL
 ```
 
 ```bash
 cd MPOCtrL
 ```
 
-### 2. Install Dependencies
+### 2. Install Dependencies with pyproject.toml
 ```bash
-# Install from pyproject.toml (production dependencies)
 uv sync
 ```
 
 ### 3. Verify Installation and Dependencies
+Should return success message
 ```bash
-# uv will install the dependencies automatically and quickly depends on the pyproject.toml file.
-uv run test_env.py  # Should return success message
+uv run test_env.py
 ```
 
 ---
