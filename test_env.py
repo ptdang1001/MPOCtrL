@@ -27,6 +27,10 @@ def test_python_libraries():
 
     print("Numba Installed Successfully!")
 
+    import fireducks.pandas as pd
+
+    print("Fireducks Installed Successfully!")
+
     return True
 
 
