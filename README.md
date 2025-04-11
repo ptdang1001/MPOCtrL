@@ -91,7 +91,7 @@ To run data normalization:
     # Or Or Or Or
 
     # command 2 (Recommend if your data is large): 
-    # modify the dta_dir and data_name in the shell script please, 
+    # modify the data_dir and data_name in the shell script please, 
     # submit the job to server. No need to stare at the laptop screen and wait.
     sbatch counts_2_cpm_sbatch.sh
     ```
@@ -116,7 +116,7 @@ To run data normalization:
     # or or or or or 
 
     # # command 2 (Recommend if your data is large): 
-    # modify the dta_dir and data_name in the shell script please, 
+    # modify the data_dir and data_name in the shell script please, 
     # submit the job to server. No need to stare at the laptop screen and wait.
     sbatch filter_dense_sbatch.sh
     ```
@@ -141,7 +141,7 @@ To run data normalization:
     # or or or or or 
 
     # # command 2 (Recommend if your data is large): 
-    # modify the dta_dir and data_name in the shell script please, 
+    # modify the data_dir and data_name in the shell script please, 
     # submit the job to server. No need to stare at the laptop screen and wait.
     sbatch gene_imputation_sbatch.sh
     ```
