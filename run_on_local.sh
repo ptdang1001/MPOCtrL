@@ -1,6 +1,5 @@
 #!/bin/bash
-
-python3 src/main.py \
+uv run src/main.py \
     --input_dir_path /your_data_path_to_data \
     --network_dir_path /your_path_to_compounds_reaction_network \
     --output_dir_path /your_path_to_save_results \
