@@ -275,17 +275,6 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250412675D},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
-@article{alghamdi2021graph,
-  title={A graph neural network model to estimate cell-wise metabolic flux using single-cell RNA-seq data},
-  author={Alghamdi, Norah and Chang, Wennan and Dang, Pengtao and Lu, Xiaoyu and Wan, Changlin and Gampala, Silpa and Huang, Zhi and Wang, Jiashi and Ma, Qin and Zang, Yong and others},
-  journal={Genome research},
-  volume={31},
-  number={10},
-  pages={1867--1884},
-  year={2021},
-  publisher={Cold Spring Harbor Lab}
-}
 ```
 
 ---
