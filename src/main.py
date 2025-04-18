@@ -489,7 +489,7 @@ def parse_arguments(parser):
         help="User defined Epoch for scFEA training.",
     )
     parser.add_argument(
-        "--batch_size", type=int, default=10240, help="Batch size, scfea."
+        "--batch_size", type=int, default=9999999, help="Batch size, scfea."
     )
     # parameters for bp_balance
     parser.add_argument(
