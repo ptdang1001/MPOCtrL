@@ -59,6 +59,7 @@ uv --version
 
 ---
 
+
 ## **Setup**
 
 ---
@@ -67,6 +68,7 @@ uv --version
 
 ### 1. Download source code
 ```bash
+# download the source code by cloning the repository
 git clone https://github.com/ptdang1001/MPOCtrL.git
 ```
 
@@ -74,15 +76,16 @@ git clone https://github.com/ptdang1001/MPOCtrL.git
 cd MPOCtrL
 ```
 
-### 2. Install Dependencies with pyproject.toml
+### 2. Install Dependencies
 ```bash
+# Install from pyproject.toml (production dependencies)
 uv sync
 ```
 
 ### 3. Verify Installation and Dependencies
-Should return success message
 ```bash
-uv run test_env.py
+# uv will install the dependencies automatically and quickly depends on the pyproject.toml file.
+uv run test_env.py  # Should return success message
 ```
 
 ---
@@ -250,6 +253,43 @@ You will find all result files in this directory. The structure includes:
 - Any other generated files
 
 ---
+
+## How to Cite  
+
+If you use **MPOCtrl** in your research, please cite our work, thank you so much:  
+
+### BibTeX  
+```bibtex
+@ARTICLE{2025arXiv250412675D,
+       author = {{Dang}, Pengtao and {Guo}, Tingbo and {Cao}, Sha and {Zhang}, Chi},
+        title = "{Physics Informed Constrained Learning of Dynamics from Static Data}",
+      journal = {arXiv e-prints},
+     keywords = {Machine Learning, Biological Physics, Molecular Networks},
+         year = 2025,
+        month = apr,
+          eid = {arXiv:2504.12675},
+        pages = {arXiv:2504.12675},
+archivePrefix = {arXiv},
+       eprint = {2504.12675},
+ primaryClass = {stat.ML},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250412675D},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{alghamdi2021graph,
+  title={A graph neural network model to estimate cell-wise metabolic flux using single-cell RNA-seq data},
+  author={Alghamdi, Norah and Chang, Wennan and Dang, Pengtao and Lu, Xiaoyu and Wan, Changlin and Gampala, Silpa and Huang, Zhi and Wang, Jiashi and Ma, Qin and Zang, Yong and others},
+  journal={Genome research},
+  volume={31},
+  number={10},
+  pages={1867--1884},
+  year={2021},
+  publisher={Cold Spring Harbor Lab}
+}
+```
+
+---
+
 
 ## **Summary**
 - **Pre-processing Options**: `counts_2_cpm.py`,  `filter_dense.py` or `gene_imputation.py`
