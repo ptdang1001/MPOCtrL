@@ -431,15 +431,15 @@ class AdaptiveMultipleModels(L.LightningModule):
         reaction_cor = self.compute_pearson_correlation(
             samples_reactions, samples_reactions_geneMean
         )
-        if reaction_cor < 0:
-            reaction_cor = -reaction_cor
+        #if reaction_cor < 0:
+        #    reaction_cor = -reaction_cor
 
         # pearson correlation distance loss by row/sample
         sample_cor = self.compute_pearson_correlation(
             samples_reactions.T, samples_reactions_geneMean.T
         )
-        if sample_cor < 0:
-            sample_cor = -sample_cor
+        #if sample_cor < 0:
+        #    sample_cor = -sample_cor
 
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
@@ -475,15 +475,15 @@ class AdaptiveMultipleModels(L.LightningModule):
         reaction_cor = self.compute_pearson_correlation(
             samples_reactions, samples_reactions_geneMean
         )
-        if reaction_cor < 0:
-            reaction_cor = -reaction_cor
+        #if reaction_cor < 0:
+        #    reaction_cor = -reaction_cor
 
         # pearson correlation loss by row
         sample_cor = self.compute_pearson_correlation(
             samples_reactions.T, samples_reactions_geneMean.T
         )
-        if sample_cor < 0:
-            sample_cor = -sample_cor
+        #if sample_cor < 0:
+        #    sample_cor = -sample_cor
 
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
