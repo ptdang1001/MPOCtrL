@@ -5,6 +5,9 @@ This project provides tools to run computational tasks on an HPC cluster managed
 ---
 
 ## Versions:
+v0.4.1:
+1. In Loss, the absolute value operation is removed when calculating the correlation..
+   
 v0.4.0:
 1. Python environment from ~~conda~~ --> uv
 2. faster csv/csv.gz load and write
