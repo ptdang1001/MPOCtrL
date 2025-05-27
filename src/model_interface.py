@@ -505,7 +505,7 @@ class AdaptiveMultipleModels(L.LightningModule):
 
     def configure_optimizers(self):
         optimizers = [
-            Adam(self.models[reaction_name].parameters(), lr=0.005, weight_decay=1e-5)
+            Adam(self.models[reaction_name].parameters(), lr=0.0005, weight_decay=1e-5)
             for reaction_name in self.reaction_names
             if self.models[reaction_name] is not None
         ]
