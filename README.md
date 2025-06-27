@@ -5,6 +5,10 @@ This project provides tools to run computational tasks on an HPC cluster managed
 ---
 
 ## Versions:
+
+v0.4.2:
+1. activation function leakyrelu -> gelu
+
 v0.4.1:
 1. In Loss, the absolute value operation is removed when calculating the correlation.
    
