@@ -38,7 +38,7 @@ class AdaptiveModel(L.LightningModule):
         self.input_dim = input_dim
         self.dropout_rate = dropout_rate
 
-        self.activation = nn.LeakyReLU()
+        self.activation = nn.GELU()
         self.output_activation = nn.ReLU()
 
         # Replace all fully connected layers with AdaptiveLayer
@@ -64,24 +64,23 @@ class AdaptiveModel(L.LightningModule):
     def forward(self, x):
         x1 = self.adaptive_layer_1(x)
         x1 = self.bn1(x1)
-        x1 += self.skip_connection(x)
         x1 = self.activation(x1)
-        if self.input_dim > 2:
-            x1 = self.dropout1(x1)
+        x1 = self.dropout1(x1)
+        x1 += self.skip_connection(x)
 
         # Second block
         x2 = self.adaptive_layer_2(x1)
         x2 = self.bn2(x2)
-        x2 += self.skip_connection(x1)  # Skip connection added before activation
         x2 = self.activation(x2)
         x2 = self.dropout2(x2)
+        x2 += self.skip_connection(x1)
 
         # Third block
         x3 = self.adaptive_layer_3(x2)
         x3 = self.bn3(x3)
-        x3 += self.skip_connection(x2)  # Skip connection added before activation
         x3 = self.activation(x3)
         x3 = self.dropout3(x3)
+        x3 += self.skip_connection(x2)
 
         # Output layer
         x4 = self.fc_out(x3)
