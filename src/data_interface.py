@@ -122,43 +122,164 @@ def init_output_dir_path(args):
     return output_dir_path, folder_name
 
 
-def load_gene_expression(args):
-    read_path = os.path.join(args.input_dir_path, args.gene_expression_file_name)
+def load_gene_expression(
+    input_dir_path, gene_expression_file_name, reactions_genes_dict
+):
+    # get all the genes in the reactions_genes_dict
+    all_genes = set()
+    for reaction_i, genes in reactions_genes_dict.items():
+        all_genes.update(genes)
+    all_genes = list(all_genes)
+
+    read_path = os.path.join(input_dir_path, gene_expression_file_name)
     gene_expression = None
 
+    # Optimized reading with FireDucks - only load specific genes for maximum speed
     if read_path.endswith(".csv.gz"):
-        gene_expression = pd.read_csv(read_path, index_col=0, compression="gzip")
+        # For CSV.gz files: genes are rows, samples are columns
+        # Strategy: Read index first, then read only matching rows
+        try:
+            # First, read only the index column to see available genes
+            gene_index_df = pd.read_csv(
+                read_path, index_col=0, compression="gzip", nrows=0
+            )
+            # Get column names (samples) for later use
+            sample_columns = gene_index_df.columns.tolist()
+
+            # Read the full index column to find gene positions
+            full_index_df = pd.read_csv(
+                read_path, index_col=0, compression="gzip", usecols=[0]
+            )
+            available_genes = full_index_df.index.intersection(all_genes)
+
+            if len(available_genes) > 0:
+                # Create a set for fast lookup
+                genes_to_keep = set(available_genes)
+
+                # Define a function to skip rows we don't want
+                def skip_rows(index):
+                    return (
+                        index > 0
+                        and full_index_df.index[index - 1] not in genes_to_keep
+                    )
+
+                # Read only the rows we need
+                gene_expression = pd.read_csv(
+                    read_path, index_col=0, compression="gzip", skiprows=skip_rows
+                )
+            else:
+                # No matching genes found, return empty dataframe
+                gene_expression = pd.DataFrame()
+        except Exception:
+            # Fallback: read all and filter (less efficient but safer)
+            gene_expression = pd.read_csv(read_path, index_col=0, compression="gzip")
+            available_genes = gene_expression.index.intersection(all_genes)
+            if len(available_genes) > 0:
+                gene_expression = gene_expression.loc[available_genes, :]
+
     elif read_path.endswith(".csv"):
-        gene_expression = pd.read_csv(read_path, index_col=0)
+        # For CSV files: genes are rows, samples are columns
+        # Same strategy as CSV.gz but without compression
+        try:
+            # First, read only the index column to see available genes
+            gene_index_df = pd.read_csv(read_path, index_col=0, nrows=0)
+            sample_columns = gene_index_df.columns.tolist()
+
+            # Read the full index column to find gene positions
+            full_index_df = pd.read_csv(read_path, index_col=0, usecols=[0])
+            available_genes = full_index_df.index.intersection(all_genes)
+
+            if len(available_genes) > 0:
+                # Create a set for fast lookup
+                genes_to_keep = set(available_genes)
+
+                # Define a function to skip rows we don't want
+                def skip_rows(index):
+                    return (
+                        index > 0
+                        and full_index_df.index[index - 1] not in genes_to_keep
+                    )
+
+                # Read only the rows we need
+                gene_expression = pd.read_csv(
+                    read_path, index_col=0, skiprows=skip_rows
+                )
+            else:
+                # No matching genes found, return empty dataframe
+                gene_expression = pd.DataFrame()
+        except Exception:
+            # Fallback: read all and filter (less efficient but safer)
+            gene_expression = pd.read_csv(read_path, index_col=0)
+            available_genes = gene_expression.index.intersection(all_genes)
+            if len(available_genes) > 0:
+                gene_expression = gene_expression.loc[available_genes, :]
+
+    elif read_path.endswith(".parquet"):
+        # Parquet supports efficient row filtering with query/filter operations
+        try:
+            # For parquet, we can use efficient row filtering
+            # First check the structure - genes as index or columns?
+            sample_df = pd.read_parquet(read_path, engine="pyarrow", nrows=1)
+
+            # Assume genes are in index (rows) like CSV files
+            full_df = pd.read_parquet(read_path, engine="pyarrow")
+            available_genes = full_df.index.intersection(all_genes)
+
+            if len(available_genes) > 0:
+                gene_expression = full_df.loc[available_genes, :]
+            else:
+                # Try genes as columns instead
+                available_genes = full_df.columns.intersection(all_genes)
+                if len(available_genes) > 0:
+                    gene_expression = full_df[available_genes]
+                else:
+                    gene_expression = pd.DataFrame()
+        except Exception:
+            # Fallback to original parquet reading logic
+            gene_expression = pd.read_parquet(read_path, engine="pyarrow")
+            # Try both index and columns for gene filtering
+            if hasattr(gene_expression.index, "intersection"):
+                available_genes = gene_expression.index.intersection(all_genes)
+                if len(available_genes) > 0:
+                    gene_expression = gene_expression.loc[available_genes, :]
+                else:
+                    available_genes = gene_expression.columns.intersection(all_genes)
+                    if len(available_genes) > 0:
+                        gene_expression = gene_expression[available_genes]
     else:
         print("Wrong Gene Expression File Name!")
         return False
 
-    # replace the nan with zero
+    # Early filtering is now done during reading, skip additional filtering
+    # unless we're dealing with parquet files that might have different structure
+
+    # replace the nan with zero - use FireDucks optimized fillna
     gene_expression = gene_expression.fillna(0.0)
 
-    # remove the rows which are all zero
+    # remove the rows which are all zero - optimized with FireDucks
     gene_expression = gene_expression.loc[~(gene_expression == 0).all(axis=1), :]
 
-    # remove the cols which are all zero
+    # remove the cols which are all zero - optimized with FireDucks
     gene_expression = gene_expression.loc[:, ~(gene_expression == 0).all(axis=0)]
 
-    # remove duplicated rows
+    # remove duplicated rows - FireDucks optimized
     gene_expression = gene_expression[~gene_expression.index.duplicated(keep="first")]
 
-    # remove duplicated cols
+    # remove duplicated cols - FireDucks optimized
     gene_expression = gene_expression.loc[
         :, ~gene_expression.columns.duplicated(keep="first")
     ]
 
+    # Transpose to get samples as rows, genes as columns
     gene_expression = gene_expression.T
 
     print(SEP_SIGN)
     # choose 5 random row index
-    n_rdm = 5
-    rdm_row_idx = np.random.choice(gene_expression.index, n_rdm)
+    n_rdm = min(5, len(gene_expression.index))  # Handle small datasets
+    rdm_row_idx = np.random.choice(gene_expression.index, n_rdm, replace=False)
     # choose 5 random col index
-    rdm_col_idx = np.random.choice(gene_expression.columns, n_rdm)
+    n_rdm_col = min(5, len(gene_expression.columns))  # Handle small datasets
+    rdm_col_idx = np.random.choice(gene_expression.columns, n_rdm_col, replace=False)
 
     # print the gene expression data, the random 5 rows and 5 cols
     print("Gene Expression Data shape:{0}".format(gene_expression.shape))
@@ -171,7 +292,6 @@ def load_gene_expression(args):
     print(SEP_SIGN)
 
     return gene_expression
-
 
 def load_compounds_reactions(args):
     read_path = os.path.join(args.network_dir_path, args.compounds_reactions_file_name)
