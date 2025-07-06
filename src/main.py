@@ -336,16 +336,18 @@ def main(args):
     print(f"{SEP_SIGN} \nCurrent Input parameters:\n{args}\n {SEP_SIGN}")
     print(f"Current CPU cores: {cpu_count()} GPT devices: {torch.cuda.device_count()}")
 
+    # load the reactions and the contained genes, stored in a json file
+    reactions_genes_dict = load_reactions_genes(args)
+
     # load gene expression data
     # geneExpression is the gene expression data,
     # cols:=samples/cells, rows:=genes,
     # but the data will be transposed to rows:=samples/cells,
     # cols:=genes automatically
-    gene_expression_data = load_gene_expression(args)
+    gene_expression_data = load_gene_expression(
+        args.input_dir_path, args.gene_expression_file_name, reactions_genes_dict
+    )
     n_samples, n_genes = gene_expression_data.shape
-
-    # load the reactions and the contained genes, stored in a json file
-    reactions_genes_dict = load_reactions_genes(args)
 
     # load the compounds and the reactions data, it is an adj matrix
     # compouns_reactions is the adj matrix of the factor graph (reaction graph)
