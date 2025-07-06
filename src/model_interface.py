@@ -38,7 +38,7 @@ class AdaptiveModel(L.LightningModule):
         self.input_dim = input_dim
         self.dropout_rate = dropout_rate
 
-        self.activation = nn.GELU()
+        self.activation = nn.ReLU()
         self.output_activation = nn.ReLU()
 
         # Replace all fully connected layers with AdaptiveLayer
