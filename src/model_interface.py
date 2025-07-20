@@ -28,7 +28,8 @@ class AdaptiveLayer(nn.Module):
 def replace_nan_predictions(predictions, default_value=0.0):
     if torch.isnan(predictions).any():
         # print("NaN detected in predictions. Replacing with default value.")
-        predictions[torch.isnan(predictions)] = default_value
+        # predictions[torch.isnan(predictions)] = default_value
+        predictions = torch.where(torch.isnan(predictions), default_value, predictions)
     return predictions
     
 
@@ -38,7 +39,7 @@ class AdaptiveModel(L.LightningModule):
         self.input_dim = input_dim
         self.dropout_rate = dropout_rate
 
-        self.activation = nn.ReLU()
+        self.activation = nn.GELU()
         self.output_activation = nn.ReLU()
 
         # Replace all fully connected layers with AdaptiveLayer
@@ -66,21 +67,21 @@ class AdaptiveModel(L.LightningModule):
         x1 = self.bn1(x1)
         x1 = self.activation(x1)
         x1 = self.dropout1(x1)
-        x1 += self.skip_connection(x)
+        x1 = x1 + self.skip_connection(x)
 
         # Second block
         x2 = self.adaptive_layer_2(x1)
         x2 = self.bn2(x2)
         x2 = self.activation(x2)
         x2 = self.dropout2(x2)
-        x2 += self.skip_connection(x1)
+        x2 = x2 + self.skip_connection(x1)
 
         # Third block
         x3 = self.adaptive_layer_3(x2)
         x3 = self.bn3(x3)
         x3 = self.activation(x3)
         x3 = self.dropout3(x3)
-        x3 += self.skip_connection(x2)
+        x3 = x3 + self.skip_connection(x2)
 
         # Output layer
         x4 = self.fc_out(x3)
@@ -353,7 +354,9 @@ class AdaptiveMultipleModels(L.LightningModule):
         # Step 3: Compute Pearson correlation distance
         # pearson_correlation_distance = 1 - correlation
         # fill na with 0
-        correlation[torch.isnan(correlation)] = 0
+        # correlation[torch.isnan(correlation)] = 0
+        # correlation = correlation.mean()
+        correlation = torch.where(torch.isnan(correlation), 0, correlation)
         correlation = correlation.mean()
 
         return correlation
@@ -414,7 +417,10 @@ class AdaptiveMultipleModels(L.LightningModule):
     def compute_cv(self, samples_reactions):
         cv = samples_reactions.std(dim=0) / (samples_reactions.mean(dim=0) + 1e-8)
         # fille na with 0
-        cv[torch.isnan(cv)] = 0
+        # cv[torch.isnan(cv)] = 0
+        # cv = abs(cv)
+        # cv = cv.mean()
+        cv = torch.where(torch.isnan(cv), 0, cv)
         cv = abs(cv)
         cv = cv.mean()
         return cv
