@@ -1,6 +1,6 @@
 # Message Passing Optimization-Based Constrained Learning (MPOCtrL) for Flow/Traffic Problems.
 
-This project provides tools to run computational tasks on an HPC cluster managed by SLURM or on your local machine. Follow the instructions below to get started.
+This project provides tools to run computational tasks on an HPC cluster managed by SLURM or on your local machine (Linux). Follow the instructions below to get started.
 
 ---
 
