@@ -7,7 +7,7 @@ This project provides tools to run computational tasks on an HPC cluster managed
 ## Versions:
 
 v0.4.2:
-1. activation function leakyrelu -> relu
+1. activation function leakyrelu -> gelu
 2. optimized data loading
 
 v0.4.1:
