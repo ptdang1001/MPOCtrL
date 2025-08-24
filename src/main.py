@@ -416,6 +416,8 @@ def main(args):
     samples_reactions_mpo_df = mpo(
         compounds_reactions_df, samples_reactions_mpoctrl_df, [], args
     )
+    mpo_save_path = os.path.join(args.output_dir_path, "mpo.csv")
+    samples_reactions_mpo_df.to_csv(mpo_save_path, index=True, header=True)
 
     samples_reactions_mpoctrl_np = merge_matrix(
         samples_reactions_mpoctrl_df.values, samples_reactions_mpo_df.values
