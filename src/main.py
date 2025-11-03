@@ -489,7 +489,7 @@ def parse_arguments(parser):
     parser.add_argument(
         "--n_epoch",
         type=int,
-        default=200,
+        default=300,
         help="User defined Epoch for scFEA training.",
     )
     parser.add_argument(
