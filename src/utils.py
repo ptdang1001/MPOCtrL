@@ -24,14 +24,13 @@ def merge_matrix(matrix_mpoctrl, matrix_mpo):
 
     for i in range(rows):
         for j in range(cols):
-            """
-            if matrix_mpoctrl[i, j] == 0 and matrix_mpo[i, j] != 0:
-                merged_array[i, j] = matrix_mpo[i, j]
-            elif matrix_mpo[i, j] == 0 and matrix_mpoctrl[i, j] != 0:
-                merged_array[i, j] = matrix_mpoctrl[i, j]
-            elif matrix_mpoctrl[i, j] != 0 and matrix_mpo[i, j] != 0:
-            """
-            merged_array[i, j] = matrix_mpoctrl[i, j]*0.8 + matrix_mpo[i,j]*0.2
+            if matrix_mpoctrl[i, j] == 0:
+                merged_array[i, j] = 0
+            #elif matrix_mpo[i, j] == 0 and matrix_mpoctrl[i, j] != 0:
+            #    merged_array[i, j] = matrix_mpoctrl[i, j]
+            #elif matrix_mpoctrl[i, j] != 0 and matrix_mpo[i, j] != 0:
+            else:
+                merged_array[i, j] = matrix_mpoctrl[i, j]*0.8 + matrix_mpo[i,j]*0.2
 
     return merged_array
 
