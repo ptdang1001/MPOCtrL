@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import torch
 import torch.nn as nn
-from torch.optim import Adam
+from torch.optim import Adam, AdamW
 import torch.nn.functional as F
 import lightning as L
 
@@ -39,7 +39,8 @@ class AdaptiveModel(L.LightningModule):
         self.input_dim = input_dim
         self.dropout_rate = dropout_rate
 
-        self.activation = nn.GELU()
+        #self.activation = nn.GELU()
+        self.activation = nn.ReLU()
         self.output_activation = nn.ReLU()
 
         # Replace all fully connected layers with AdaptiveLayer
@@ -66,14 +67,14 @@ class AdaptiveModel(L.LightningModule):
         x1 = self.adaptive_layer_1(x)
         x1 = self.bn1(x1)
         x1 = self.activation(x1)
-        x1 = self.dropout1(x1)
+        #x1 = self.dropout1(x1)
         x1 = x1 + self.skip_connection(x)
 
         # Second block
         x2 = self.adaptive_layer_2(x1)
         x2 = self.bn2(x2)
         x2 = self.activation(x2)
-        x2 = self.dropout2(x2)
+        #x2 = self.dropout2(x2)
         x2 = x2 + self.skip_connection(x1)
 
         # Third block
@@ -436,15 +437,15 @@ class AdaptiveMultipleModels(L.LightningModule):
         reaction_cor = self.compute_pearson_correlation(
             samples_reactions, samples_reactions_geneMean
         )
-        #if reaction_cor < 0:
-        #    reaction_cor = -reaction_cor
+        if reaction_cor < 0:
+            reaction_cor = -reaction_cor
 
         # pearson correlation distance loss by row/sample
         sample_cor = self.compute_pearson_correlation(
             samples_reactions.T, samples_reactions_geneMean.T
         )
-        #if sample_cor < 0:
-        #    sample_cor = -sample_cor
+        if sample_cor < 0:
+            sample_cor = -sample_cor
 
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
@@ -480,15 +481,15 @@ class AdaptiveMultipleModels(L.LightningModule):
         reaction_cor = self.compute_pearson_correlation(
             samples_reactions, samples_reactions_geneMean
         )
-        #if reaction_cor < 0:
-        #    reaction_cor = -reaction_cor
+        if reaction_cor < 0:
+            reaction_cor = -reaction_cor
 
         # pearson correlation loss by row
         sample_cor = self.compute_pearson_correlation(
             samples_reactions.T, samples_reactions_geneMean.T
         )
-        #if sample_cor < 0:
-        #    sample_cor = -sample_cor
+        if sample_cor < 0:
+            sample_cor = -sample_cor
 
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
@@ -510,7 +511,7 @@ class AdaptiveMultipleModels(L.LightningModule):
 
     def configure_optimizers(self):
         optimizers = [
-            Adam(self.models[reaction_name].parameters(), lr=0.0005, weight_decay=1e-5)
+            AdamW(self.models[reaction_name].parameters(), lr=0.001, weight_decay=0.001)
             for reaction_name in self.reaction_names
             if self.models[reaction_name] is not None
         ]
