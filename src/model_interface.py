@@ -451,7 +451,7 @@ class AdaptiveMultipleModels(L.LightningModule):
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
 
         # gradient positive penalty
-        gradient_penalty = self.compute_gradient_negative_loss()
+        #gradient_penalty = self.compute_gradient_negative_loss()
 
         # calculate the entropy loss
         entropy_loss = self.compute_model_entropy_loss()
@@ -460,7 +460,6 @@ class AdaptiveMultipleModels(L.LightningModule):
             imbalance_loss,
             1 - reaction_cor,
             1 - sample_cor,
-            gradient_penalty,
             entropy_loss,
         ]
         non_zero_loss_list = [loss for loss in loss_list if loss != 0]
@@ -494,7 +493,7 @@ class AdaptiveMultipleModels(L.LightningModule):
         # imbalance loss
         imbalance_loss = self.compute_imbalance_loss(samples_reactions)
         # gradient positive penalty
-        gradient_penalty = self.compute_gradient_negative_loss()
+        # gradient_penalty = self.compute_gradient_negative_loss()
 
         entropy_loss = self.compute_model_entropy_loss()
         loss_list = [
@@ -502,7 +501,6 @@ class AdaptiveMultipleModels(L.LightningModule):
             imbalance_loss,
             1 - reaction_cor,
             1 - sample_cor,
-            gradient_penalty,
             entropy_loss,
         ]
         non_zero_loss_list = [loss for loss in loss_list if loss != 0]
