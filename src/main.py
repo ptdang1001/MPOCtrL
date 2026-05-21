@@ -499,7 +499,7 @@ def parse_arguments(parser):
     parser.add_argument(
         "--mpo_n_epoch",
         type=int,
-        default=10,
+        default=5,
         help="User defined Epoch for Message Passing Optimizer.",
     )
     parser.add_argument(
